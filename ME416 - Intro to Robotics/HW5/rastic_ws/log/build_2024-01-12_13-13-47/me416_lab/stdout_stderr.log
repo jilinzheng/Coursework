@@ -1,0 +1,47 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating me416_lab.egg-info
+writing me416_lab.egg-info/PKG-INFO
+writing dependency_links to me416_lab.egg-info/dependency_links.txt
+writing entry points to me416_lab.egg-info/entry_points.txt
+writing requirements to me416_lab.egg-info/requires.txt
+writing top-level names to me416_lab.egg-info/top_level.txt
+writing manifest file 'me416_lab.egg-info/SOURCES.txt'
+reading manifest file 'me416_lab.egg-info/SOURCES.txt'
+writing manifest file 'me416_lab.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/rastic_ws/install/me416_lab/lib/python3.10/site-packages/me416-lab.egg-link (link to .)
+Installing controller_line script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing controller_test script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing encoders_publisher script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing image_flipper script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing image_segment script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing key_op script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing key_terminate script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing listener script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing listener_accumulator script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing listener_class script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing motor_command script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing motorspeeds_talker script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing odometry_encoders script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing repeater script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing repeater_class script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing scripted_op script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing signal_generator script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing talker script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing talker_class script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing talker_interesting script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+Installing zigzag_op script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab
+
+Installed /home/ubuntu/rastic_ws/build/me416_lab
+running install_data
+creating /home/ubuntu/rastic_ws/install/me416_lab/share/ament_index
+creating /home/ubuntu/rastic_ws/install/me416_lab/share/ament_index/resource_index
+creating /home/ubuntu/rastic_ws/install/me416_lab/share/ament_index/resource_index/packages
+copying resource/me416_lab -> /home/ubuntu/rastic_ws/install/me416_lab/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/rastic_ws/install/me416_lab/share/me416_lab
+copying launch/camera_launch.py -> /home/ubuntu/rastic_ws/install/me416_lab/share/me416_lab

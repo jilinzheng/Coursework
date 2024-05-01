@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Setup dweet
+
+cron_name="me416_publish_ip_dweet"
+script_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")" &> /dev/null && pwd)
+
+sudo cp "${script_dir}/${cron_name}" /usr/bin
+sudo chmod ugo=rx /usr/bin/"${cron_name}"
+echo "Add the following line to the crontab using the editor"
+echo "* * * * * /usr/bin/${cron_name}"
+read -p "Press a key to launch crontab -e ... " -n1 -s
+crontab -e

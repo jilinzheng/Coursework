@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+
+# Routes AO_A to pin 11 (requires jumper 2J1), AO_B to 12 (GPIO6)
+sudo ldto enable pwm-ao-6
+printf "${RED}Warning:${NC} Please move jumper ${RED}2J1${NC} toward the edge of the board\n"
+# Routes E to pin 32, F to pin 35
+sudo ldto enable pwm-ef
+
+# Merge config so that it is applied after reboot
+sudo ldto merge pwm-ao-6
+sudo ldto merge pwm-ef
+
+# Add udev rule to automatically enable all PWM lines
+sudo cp 81-pwm-noroot.rules /etc/udev/rules.d
+
+# Add user to group for changing PWMs
+sudo adduser ${USER} gpio
+# Add user to group for accessing GPIOs
+sudo adduser ${USER} dialout

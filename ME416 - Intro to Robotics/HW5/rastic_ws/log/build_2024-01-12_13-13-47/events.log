@@ -1,0 +1,1302 @@
+[0.000000] (-) TimerEvent: {}
+[0.001111] (me416_msgs) JobQueued: {'identifier': 'me416_msgs', 'dependencies': OrderedDict()}
+[0.002996] (me416_lab) JobQueued: {'identifier': 'me416_lab', 'dependencies': OrderedDict([('me416_msgs', '/home/ubuntu/rastic_ws/install/me416_msgs')])}
+[0.004404] (me416_msgs) JobStarted: {'identifier': 'me416_msgs'}
+[0.098292] (-) TimerEvent: {}
+[0.199924] (-) TimerEvent: {}
+[0.300830] (-) TimerEvent: {}
+[0.402032] (-) TimerEvent: {}
+[0.502591] (-) TimerEvent: {}
+[0.608632] (-) TimerEvent: {}
+[0.636126] (me416_msgs) JobProgress: {'identifier': 'me416_msgs', 'progress': 'cmake'}
+[0.638312] (me416_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/rastic_ws/src/me416_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/rastic_ws/install/me416_msgs'], 'cwd': '/home/ubuntu/rastic_ws/build/me416_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.239.130.92 55303 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rastic_cl/scripts'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONBREAKPOINT', 'ipdb.set_trace'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/rastic_cl:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/rastic_ws/build/me416_msgs'), ('SSH_CONNECTION', '10.239.130.92 55303 128.197.50.173 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('ROS_WORKSPACE', '/home/ubuntu/rastic_ws/'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.708970] (-) TimerEvent: {}
+[0.809625] (-) TimerEvent: {}
+[0.910309] (-) TimerEvent: {}
+[1.010939] (-) TimerEvent: {}
+[1.111840] (-) TimerEvent: {}
+[1.212562] (-) TimerEvent: {}
+[1.313205] (-) TimerEvent: {}
+[1.413868] (-) TimerEvent: {}
+[1.457861] (me416_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.514131] (-) TimerEvent: {}
+[1.614716] (-) TimerEvent: {}
+[1.715359] (-) TimerEvent: {}
+[1.816091] (-) TimerEvent: {}
+[1.916737] (-) TimerEvent: {}
+[2.017296] (-) TimerEvent: {}
+[2.105140] (me416_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.117572] (-) TimerEvent: {}
+[2.180986] (me416_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.217786] (-) TimerEvent: {}
+[2.318396] (-) TimerEvent: {}
+[2.419064] (-) TimerEvent: {}
+[2.519671] (-) TimerEvent: {}
+[2.620335] (-) TimerEvent: {}
+[2.708552] (me416_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.720752] (-) TimerEvent: {}
+[2.787115] (me416_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.789814] (me416_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.794649] (me416_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.818532] (me416_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.820909] (-) TimerEvent: {}
+[2.921475] (-) TimerEvent: {}
+[3.022099] (-) TimerEvent: {}
+[3.122760] (-) TimerEvent: {}
+[3.223362] (-) TimerEvent: {}
+[3.324008] (-) TimerEvent: {}
+[3.354479] (me416_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.424300] (-) TimerEvent: {}
+[3.428965] (me416_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.431096] (me416_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.434670] (me416_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.458631] (me416_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.524603] (-) TimerEvent: {}
+[3.625201] (-) TimerEvent: {}
+[3.725776] (-) TimerEvent: {}
+[3.826338] (-) TimerEvent: {}
+[3.926924] (-) TimerEvent: {}
+[4.027478] (-) TimerEvent: {}
+[4.128094] (-) TimerEvent: {}
+[4.228652] (-) TimerEvent: {}
+[4.329260] (-) TimerEvent: {}
+[4.429991] (-) TimerEvent: {}
+[4.530553] (-) TimerEvent: {}
+[4.631096] (-) TimerEvent: {}
+[4.731634] (-) TimerEvent: {}
+[4.832231] (-) TimerEvent: {}
+[4.933973] (-) TimerEvent: {}
+[4.950257] (me416_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[5.033926] (-) TimerEvent: {}
+[5.134466] (-) TimerEvent: {}
+[5.235339] (-) TimerEvent: {}
+[5.340685] (-) TimerEvent: {}
+[5.441235] (-) TimerEvent: {}
+[5.543688] (me416_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.545133] (-) TimerEvent: {}
+[5.645654] (-) TimerEvent: {}
+[5.705730] (me416_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.724563] (me416_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.745913] (-) TimerEvent: {}
+[5.760308] (me416_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.846163] (-) TimerEvent: {}
+[5.946740] (-) TimerEvent: {}
+[6.047370] (-) TimerEvent: {}
+[6.070214] (me416_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.147634] (-) TimerEvent: {}
+[6.248306] (-) TimerEvent: {}
+[6.348901] (-) TimerEvent: {}
+[6.363090] (me416_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[6.449169] (-) TimerEvent: {}
+[6.549746] (-) TimerEvent: {}
+[6.554467] (me416_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[6.649993] (-) TimerEvent: {}
+[6.750588] (-) TimerEvent: {}
+[6.851193] (-) TimerEvent: {}
+[6.855986] (me416_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.951413] (-) TimerEvent: {}
+[7.052038] (-) TimerEvent: {}
+[7.152601] (-) TimerEvent: {}
+[7.253156] (-) TimerEvent: {}
+[7.354060] (-) TimerEvent: {}
+[7.454641] (-) TimerEvent: {}
+[7.555220] (-) TimerEvent: {}
+[7.655844] (-) TimerEvent: {}
+[7.756445] (-) TimerEvent: {}
+[7.857033] (-) TimerEvent: {}
+[7.957586] (-) TimerEvent: {}
+[8.058154] (-) TimerEvent: {}
+[8.158721] (-) TimerEvent: {}
+[8.259286] (-) TimerEvent: {}
+[8.359926] (-) TimerEvent: {}
+[8.460520] (-) TimerEvent: {}
+[8.561137] (-) TimerEvent: {}
+[8.661754] (-) TimerEvent: {}
+[8.762342] (-) TimerEvent: {}
+[8.862912] (-) TimerEvent: {}
+[8.963478] (-) TimerEvent: {}
+[9.064152] (-) TimerEvent: {}
+[9.164752] (-) TimerEvent: {}
+[9.246122] (me416_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[9.265031] (-) TimerEvent: {}
+[9.365665] (-) TimerEvent: {}
+[9.466330] (-) TimerEvent: {}
+[9.566905] (-) TimerEvent: {}
+[9.668845] (-) TimerEvent: {}
+[9.771404] (-) TimerEvent: {}
+[9.872217] (-) TimerEvent: {}
+[9.973083] (-) TimerEvent: {}
+[10.073657] (-) TimerEvent: {}
+[10.174257] (-) TimerEvent: {}
+[10.274886] (-) TimerEvent: {}
+[10.375485] (-) TimerEvent: {}
+[10.477232] (-) TimerEvent: {}
+[10.579599] (-) TimerEvent: {}
+[10.680350] (-) TimerEvent: {}
+[10.780880] (-) TimerEvent: {}
+[10.881477] (-) TimerEvent: {}
+[10.982079] (-) TimerEvent: {}
+[11.082698] (-) TimerEvent: {}
+[11.148779] (me416_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.182952] (-) TimerEvent: {}
+[11.283552] (-) TimerEvent: {}
+[11.384172] (-) TimerEvent: {}
+[11.484749] (-) TimerEvent: {}
+[11.585318] (-) TimerEvent: {}
+[11.685906] (-) TimerEvent: {}
+[11.786553] (-) TimerEvent: {}
+[11.887225] (-) TimerEvent: {}
+[11.988086] (-) TimerEvent: {}
+[12.088633] (-) TimerEvent: {}
+[12.189280] (-) TimerEvent: {}
+[12.289906] (-) TimerEvent: {}
+[12.390469] (-) TimerEvent: {}
+[12.491043] (-) TimerEvent: {}
+[12.591607] (-) TimerEvent: {}
+[12.692305] (-) TimerEvent: {}
+[12.792911] (-) TimerEvent: {}
+[12.893487] (-) TimerEvent: {}
+[12.994156] (-) TimerEvent: {}
+[13.094810] (-) TimerEvent: {}
+[13.195437] (-) TimerEvent: {}
+[13.296069] (-) TimerEvent: {}
+[13.396650] (-) TimerEvent: {}
+[13.497277] (-) TimerEvent: {}
+[13.597880] (-) TimerEvent: {}
+[13.599135] (me416_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.698127] (-) TimerEvent: {}
+[13.798745] (-) TimerEvent: {}
+[13.812164] (me416_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[13.818152] (me416_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[13.899010] (-) TimerEvent: {}
+[13.999608] (-) TimerEvent: {}
+[14.033515] (me416_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[14.035625] (me416_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[14.036961] (me416_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[14.038070] (me416_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[14.099892] (-) TimerEvent: {}
+[14.200489] (-) TimerEvent: {}
+[14.216410] (me416_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[14.300741] (-) TimerEvent: {}
+[14.401329] (-) TimerEvent: {}
+[14.501921] (-) TimerEvent: {}
+[14.602545] (-) TimerEvent: {}
+[14.703755] (me416_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.704876] (-) TimerEvent: {}
+[14.729842] (me416_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.787138] (me416_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.805141] (-) TimerEvent: {}
+[14.905742] (-) TimerEvent: {}
+[15.006339] (-) TimerEvent: {}
+[15.042297] (me416_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[15.064625] (me416_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/rastic_ws/build/me416_msgs\n'}
+[15.108765] (-) TimerEvent: {}
+[15.129579] (me416_msgs) CommandEnded: {'returncode': 0}
+[15.144200] (me416_msgs) JobProgress: {'identifier': 'me416_msgs', 'progress': 'build'}
+[15.149504] (me416_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/rastic_ws/build/me416_msgs', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/rastic_ws/build/me416_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.239.130.92 55303 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rastic_cl/scripts'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONBREAKPOINT', 'ipdb.set_trace'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/rastic_cl:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/rastic_ws/build/me416_msgs'), ('SSH_CONNECTION', '10.239.130.92 55303 128.197.50.173 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('ROS_WORKSPACE', '/home/ubuntu/rastic_ws/'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.208666] (-) TimerEvent: {}
+[15.309300] (-) TimerEvent: {}
+[15.409956] (-) TimerEvent: {}
+[15.454860] (me416_msgs) StdoutLine: {'line': b'[  2%] Generating C++ code for ROS interfaces\n'}
+[15.510189] (-) TimerEvent: {}
+[15.610760] (-) TimerEvent: {}
+[15.711335] (-) TimerEvent: {}
+[15.811960] (-) TimerEvent: {}
+[15.912524] (-) TimerEvent: {}
+[16.013130] (-) TimerEvent: {}
+[16.113693] (-) TimerEvent: {}
+[16.214265] (-) TimerEvent: {}
+[16.314880] (-) TimerEvent: {}
+[16.415526] (-) TimerEvent: {}
+[16.516202] (-) TimerEvent: {}
+[16.616734] (-) TimerEvent: {}
+[16.717280] (-) TimerEvent: {}
+[16.817829] (-) TimerEvent: {}
+[16.918372] (-) TimerEvent: {}
+[17.018933] (-) TimerEvent: {}
+[17.119491] (-) TimerEvent: {}
+[17.220109] (-) TimerEvent: {}
+[17.320653] (-) TimerEvent: {}
+[17.421200] (-) TimerEvent: {}
+[17.521750] (-) TimerEvent: {}
+[17.622301] (-) TimerEvent: {}
+[17.722881] (-) TimerEvent: {}
+[17.823466] (-) TimerEvent: {}
+[17.924098] (-) TimerEvent: {}
+[18.024661] (-) TimerEvent: {}
+[18.125231] (-) TimerEvent: {}
+[18.225803] (-) TimerEvent: {}
+[18.326423] (-) TimerEvent: {}
+[18.427041] (-) TimerEvent: {}
+[18.527651] (-) TimerEvent: {}
+[18.628528] (-) TimerEvent: {}
+[18.729101] (-) TimerEvent: {}
+[18.750694] (me416_msgs) StdoutLine: {'line': b'[  2%] Built target me416_msgs__cpp\n'}
+[18.829383] (-) TimerEvent: {}
+[18.921330] (me416_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_me416_msgs\n'}
+[18.929659] (-) TimerEvent: {}
+[18.982781] (me416_msgs) StdoutLine: {'line': b'[  5%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[19.029895] (-) TimerEvent: {}
+[19.130471] (-) TimerEvent: {}
+[19.231069] (-) TimerEvent: {}
+[19.331683] (-) TimerEvent: {}
+[19.432336] (-) TimerEvent: {}
+[19.532877] (-) TimerEvent: {}
+[19.633440] (-) TimerEvent: {}
+[19.734013] (-) TimerEvent: {}
+[19.834579] (-) TimerEvent: {}
+[19.935138] (-) TimerEvent: {}
+[20.035785] (-) TimerEvent: {}
+[20.136334] (-) TimerEvent: {}
+[20.236895] (-) TimerEvent: {}
+[20.337880] (-) TimerEvent: {}
+[20.438443] (-) TimerEvent: {}
+[20.539010] (-) TimerEvent: {}
+[20.639589] (-) TimerEvent: {}
+[20.740223] (-) TimerEvent: {}
+[20.840815] (-) TimerEvent: {}
+[20.941422] (-) TimerEvent: {}
+[21.042403] (-) TimerEvent: {}
+[21.143040] (-) TimerEvent: {}
+[21.243607] (-) TimerEvent: {}
+[21.344217] (-) TimerEvent: {}
+[21.444788] (-) TimerEvent: {}
+[21.545375] (-) TimerEvent: {}
+[21.645981] (-) TimerEvent: {}
+[21.746621] (-) TimerEvent: {}
+[21.848830] (-) TimerEvent: {}
+[21.951205] (-) TimerEvent: {}
+[21.972793] (me416_msgs) StdoutLine: {'line': b'[  7%] Building CXX object CMakeFiles/me416_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/me416_msgs/msg/detail/dds_fastrtps/motor_speeds__type_support.cpp.o\n'}
+[22.051430] (-) TimerEvent: {}
+[22.152073] (-) TimerEvent: {}
+[22.252651] (-) TimerEvent: {}
+[22.353284] (-) TimerEvent: {}
+[22.453915] (-) TimerEvent: {}
+[22.554486] (-) TimerEvent: {}
+[22.655102] (-) TimerEvent: {}
+[22.755825] (-) TimerEvent: {}
+[22.856430] (-) TimerEvent: {}
+[22.957030] (-) TimerEvent: {}
+[23.057942] (-) TimerEvent: {}
+[23.158548] (-) TimerEvent: {}
+[23.259159] (-) TimerEvent: {}
+[23.359862] (-) TimerEvent: {}
+[23.460467] (-) TimerEvent: {}
+[23.561085] (-) TimerEvent: {}
+[23.661665] (-) TimerEvent: {}
+[23.762256] (-) TimerEvent: {}
+[23.862865] (-) TimerEvent: {}
+[23.963461] (-) TimerEvent: {}
+[24.064113] (-) TimerEvent: {}
+[24.164724] (-) TimerEvent: {}
+[24.265305] (-) TimerEvent: {}
+[24.365923] (-) TimerEvent: {}
+[24.466530] (-) TimerEvent: {}
+[24.567119] (-) TimerEvent: {}
+[24.667690] (-) TimerEvent: {}
+[24.768343] (-) TimerEvent: {}
+[24.868937] (-) TimerEvent: {}
+[24.969522] (-) TimerEvent: {}
+[25.070099] (-) TimerEvent: {}
+[25.170705] (-) TimerEvent: {}
+[25.271324] (-) TimerEvent: {}
+[25.371965] (-) TimerEvent: {}
+[25.472620] (-) TimerEvent: {}
+[25.573190] (-) TimerEvent: {}
+[25.591910] (me416_msgs) StdoutLine: {'line': b'[ 10%] Building CXX object CMakeFiles/me416_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/me416_msgs/msg/detail/dds_fastrtps/motor_speeds_stamped__type_support.cpp.o\n'}
+[25.673445] (-) TimerEvent: {}
+[25.774055] (-) TimerEvent: {}
+[25.874655] (-) TimerEvent: {}
+[25.975242] (-) TimerEvent: {}
+[26.075868] (-) TimerEvent: {}
+[26.176462] (-) TimerEvent: {}
+[26.277061] (-) TimerEvent: {}
+[26.377661] (-) TimerEvent: {}
+[26.478272] (-) TimerEvent: {}
+[26.578892] (-) TimerEvent: {}
+[26.679589] (-) TimerEvent: {}
+[26.780413] (-) TimerEvent: {}
+[26.881281] (-) TimerEvent: {}
+[26.981880] (-) TimerEvent: {}
+[27.082472] (-) TimerEvent: {}
+[27.183060] (-) TimerEvent: {}
+[27.283661] (-) TimerEvent: {}
+[27.384325] (-) TimerEvent: {}
+[27.484929] (-) TimerEvent: {}
+[27.585538] (-) TimerEvent: {}
+[27.686148] (-) TimerEvent: {}
+[27.786915] (-) TimerEvent: {}
+[27.887550] (-) TimerEvent: {}
+[27.988231] (-) TimerEvent: {}
+[28.088825] (-) TimerEvent: {}
+[28.189430] (-) TimerEvent: {}
+[28.290074] (-) TimerEvent: {}
+[28.390691] (-) TimerEvent: {}
+[28.491325] (-) TimerEvent: {}
+[28.591922] (-) TimerEvent: {}
+[28.692514] (-) TimerEvent: {}
+[28.793104] (-) TimerEvent: {}
+[28.893713] (-) TimerEvent: {}
+[28.994320] (-) TimerEvent: {}
+[29.094913] (-) TimerEvent: {}
+[29.124603] (me416_msgs) StdoutLine: {'line': b'[ 12%] Linking CXX shared library libme416_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[29.195478] (-) TimerEvent: {}
+[29.296204] (-) TimerEvent: {}
+[29.396814] (-) TimerEvent: {}
+[29.497377] (-) TimerEvent: {}
+[29.597947] (-) TimerEvent: {}
+[29.698533] (-) TimerEvent: {}
+[29.704137] (me416_msgs) StdoutLine: {'line': b'[ 12%] Built target me416_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[29.771543] (me416_msgs) StdoutLine: {'line': b'[ 15%] Generating C++ introspection for ROS interfaces\n'}
+[29.798829] (-) TimerEvent: {}
+[29.899467] (-) TimerEvent: {}
+[30.000093] (-) TimerEvent: {}
+[30.100647] (-) TimerEvent: {}
+[30.201226] (-) TimerEvent: {}
+[30.301814] (-) TimerEvent: {}
+[30.402406] (-) TimerEvent: {}
+[30.502963] (-) TimerEvent: {}
+[30.603525] (-) TimerEvent: {}
+[30.704196] (-) TimerEvent: {}
+[30.804900] (-) TimerEvent: {}
+[30.905499] (-) TimerEvent: {}
+[31.006060] (-) TimerEvent: {}
+[31.106655] (-) TimerEvent: {}
+[31.207269] (-) TimerEvent: {}
+[31.307871] (-) TimerEvent: {}
+[31.408428] (-) TimerEvent: {}
+[31.508980] (-) TimerEvent: {}
+[31.609529] (-) TimerEvent: {}
+[31.710097] (-) TimerEvent: {}
+[31.810988] (-) TimerEvent: {}
+[31.911557] (-) TimerEvent: {}
+[32.012155] (-) TimerEvent: {}
+[32.112989] (-) TimerEvent: {}
+[32.213580] (-) TimerEvent: {}
+[32.314188] (-) TimerEvent: {}
+[32.414780] (-) TimerEvent: {}
+[32.516211] (-) TimerEvent: {}
+[32.616923] (-) TimerEvent: {}
+[32.634202] (me416_msgs) StdoutLine: {'line': b'[ 17%] Building CXX object CMakeFiles/me416_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/me416_msgs/msg/detail/motor_speeds__type_support.cpp.o\n'}
+[32.717269] (-) TimerEvent: {}
+[32.817879] (-) TimerEvent: {}
+[32.918449] (-) TimerEvent: {}
+[33.019040] (-) TimerEvent: {}
+[33.119616] (-) TimerEvent: {}
+[33.220287] (-) TimerEvent: {}
+[33.320890] (-) TimerEvent: {}
+[33.421490] (-) TimerEvent: {}
+[33.522102] (-) TimerEvent: {}
+[33.622692] (-) TimerEvent: {}
+[33.723302] (-) TimerEvent: {}
+[33.823890] (-) TimerEvent: {}
+[33.924471] (-) TimerEvent: {}
+[34.025043] (-) TimerEvent: {}
+[34.125624] (-) TimerEvent: {}
+[34.226227] (-) TimerEvent: {}
+[34.327141] (-) TimerEvent: {}
+[34.427815] (-) TimerEvent: {}
+[34.528400] (-) TimerEvent: {}
+[34.628986] (-) TimerEvent: {}
+[34.729556] (-) TimerEvent: {}
+[34.830147] (-) TimerEvent: {}
+[34.930741] (-) TimerEvent: {}
+[35.031346] (-) TimerEvent: {}
+[35.131911] (-) TimerEvent: {}
+[35.232480] (-) TimerEvent: {}
+[35.333099] (-) TimerEvent: {}
+[35.433755] (-) TimerEvent: {}
+[35.534393] (-) TimerEvent: {}
+[35.634999] (-) TimerEvent: {}
+[35.735624] (-) TimerEvent: {}
+[35.836293] (-) TimerEvent: {}
+[35.937188] (me416_msgs) StdoutLine: {'line': b'[ 20%] Building CXX object CMakeFiles/me416_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/me416_msgs/msg/detail/motor_speeds_stamped__type_support.cpp.o\n'}
+[35.938519] (-) TimerEvent: {}
+[36.039080] (-) TimerEvent: {}
+[36.139675] (-) TimerEvent: {}
+[36.240860] (-) TimerEvent: {}
+[36.341431] (-) TimerEvent: {}
+[36.442009] (-) TimerEvent: {}
+[36.542599] (-) TimerEvent: {}
+[36.643173] (-) TimerEvent: {}
+[36.743812] (-) TimerEvent: {}
+[36.844395] (-) TimerEvent: {}
+[36.944993] (-) TimerEvent: {}
+[37.045591] (-) TimerEvent: {}
+[37.146209] (-) TimerEvent: {}
+[37.246824] (-) TimerEvent: {}
+[37.347811] (-) TimerEvent: {}
+[37.448504] (-) TimerEvent: {}
+[37.549103] (-) TimerEvent: {}
+[37.649710] (-) TimerEvent: {}
+[37.750322] (-) TimerEvent: {}
+[37.850952] (-) TimerEvent: {}
+[37.951558] (-) TimerEvent: {}
+[38.052229] (-) TimerEvent: {}
+[38.152850] (-) TimerEvent: {}
+[38.253472] (-) TimerEvent: {}
+[38.354223] (-) TimerEvent: {}
+[38.454830] (-) TimerEvent: {}
+[38.555457] (-) TimerEvent: {}
+[38.656103] (-) TimerEvent: {}
+[38.756689] (-) TimerEvent: {}
+[38.857279] (-) TimerEvent: {}
+[38.957868] (-) TimerEvent: {}
+[39.058471] (-) TimerEvent: {}
+[39.159078] (-) TimerEvent: {}
+[39.259693] (-) TimerEvent: {}
+[39.360317] (-) TimerEvent: {}
+[39.363357] (me416_msgs) StdoutLine: {'line': b'[ 23%] Linking CXX shared library libme416_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[39.460613] (-) TimerEvent: {}
+[39.561266] (-) TimerEvent: {}
+[39.661879] (-) TimerEvent: {}
+[39.762453] (-) TimerEvent: {}
+[39.857082] (me416_msgs) StdoutLine: {'line': b'[ 23%] Built target me416_msgs__rosidl_typesupport_introspection_cpp\n'}
+[39.862845] (-) TimerEvent: {}
+[39.963776] (-) TimerEvent: {}
+[40.064361] (-) TimerEvent: {}
+[40.164943] (-) TimerEvent: {}
+[40.265531] (-) TimerEvent: {}
+[40.366123] (-) TimerEvent: {}
+[40.466687] (-) TimerEvent: {}
+[40.567270] (-) TimerEvent: {}
+[40.667892] (-) TimerEvent: {}
+[40.768460] (-) TimerEvent: {}
+[40.869010] (-) TimerEvent: {}
+[40.969598] (-) TimerEvent: {}
+[41.070192] (-) TimerEvent: {}
+[41.170800] (-) TimerEvent: {}
+[41.271370] (-) TimerEvent: {}
+[41.371926] (-) TimerEvent: {}
+[41.472492] (-) TimerEvent: {}
+[41.573060] (-) TimerEvent: {}
+[41.673611] (-) TimerEvent: {}
+[41.774189] (-) TimerEvent: {}
+[41.874748] (-) TimerEvent: {}
+[41.975305] (-) TimerEvent: {}
+[42.075923] (-) TimerEvent: {}
+[42.176477] (-) TimerEvent: {}
+[42.277042] (-) TimerEvent: {}
+[42.345357] (me416_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[42.350348] (me416_msgs) StdoutLine: {'line': b'creating me416_msgs.egg-info\n'}
+[42.353516] (me416_msgs) StdoutLine: {'line': b'writing me416_msgs.egg-info/PKG-INFO\n'}
+[42.355422] (me416_msgs) StdoutLine: {'line': b'writing dependency_links to me416_msgs.egg-info/dependency_links.txt\n'}
+[42.357406] (me416_msgs) StdoutLine: {'line': b'writing top-level names to me416_msgs.egg-info/top_level.txt\n'}
+[42.359270] (me416_msgs) StdoutLine: {'line': b"writing manifest file 'me416_msgs.egg-info/SOURCES.txt'\n"}
+[42.377304] (-) TimerEvent: {}
+[42.378224] (me416_msgs) StdoutLine: {'line': b"reading manifest file 'me416_msgs.egg-info/SOURCES.txt'\n"}
+[42.382361] (me416_msgs) StdoutLine: {'line': b"writing manifest file 'me416_msgs.egg-info/SOURCES.txt'\n"}
+[42.477589] (-) TimerEvent: {}
+[42.579332] (-) TimerEvent: {}
+[42.637921] (me416_msgs) StdoutLine: {'line': b'[ 23%] Built target ament_cmake_python_build_me416_msgs_egg\n'}
+[42.679235] (-) TimerEvent: {}
+[42.697713] (me416_msgs) StdoutLine: {'line': b'[ 25%] Generating C++ type support dispatch for ROS interfaces\n'}
+[42.779478] (-) TimerEvent: {}
+[42.880104] (-) TimerEvent: {}
+[42.980670] (-) TimerEvent: {}
+[43.081246] (-) TimerEvent: {}
+[43.181836] (-) TimerEvent: {}
+[43.282434] (-) TimerEvent: {}
+[43.383018] (-) TimerEvent: {}
+[43.483584] (-) TimerEvent: {}
+[43.584206] (-) TimerEvent: {}
+[43.684783] (-) TimerEvent: {}
+[43.785359] (-) TimerEvent: {}
+[43.885917] (-) TimerEvent: {}
+[43.986470] (-) TimerEvent: {}
+[44.087041] (-) TimerEvent: {}
+[44.191427] (-) TimerEvent: {}
+[44.292074] (-) TimerEvent: {}
+[44.392636] (-) TimerEvent: {}
+[44.493201] (-) TimerEvent: {}
+[44.593757] (-) TimerEvent: {}
+[44.694637] (-) TimerEvent: {}
+[44.795203] (-) TimerEvent: {}
+[44.895846] (-) TimerEvent: {}
+[44.996447] (-) TimerEvent: {}
+[45.097074] (-) TimerEvent: {}
+[45.197742] (-) TimerEvent: {}
+[45.263230] (me416_msgs) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/me416_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/me416_msgs/msg/motor_speeds__type_support.cpp.o\n'}
+[45.298012] (-) TimerEvent: {}
+[45.398610] (-) TimerEvent: {}
+[45.499181] (-) TimerEvent: {}
+[45.599833] (-) TimerEvent: {}
+[45.700785] (-) TimerEvent: {}
+[45.801427] (-) TimerEvent: {}
+[45.902127] (-) TimerEvent: {}
+[46.002745] (-) TimerEvent: {}
+[46.103356] (-) TimerEvent: {}
+[46.203982] (-) TimerEvent: {}
+[46.304583] (-) TimerEvent: {}
+[46.405169] (-) TimerEvent: {}
+[46.505731] (-) TimerEvent: {}
+[46.606294] (-) TimerEvent: {}
+[46.706889] (-) TimerEvent: {}
+[46.807491] (-) TimerEvent: {}
+[46.908474] (-) TimerEvent: {}
+[47.009078] (-) TimerEvent: {}
+[47.109962] (-) TimerEvent: {}
+[47.210860] (-) TimerEvent: {}
+[47.311423] (-) TimerEvent: {}
+[47.412405] (-) TimerEvent: {}
+[47.513016] (-) TimerEvent: {}
+[47.613625] (-) TimerEvent: {}
+[47.662664] (me416_msgs) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/me416_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/me416_msgs/msg/motor_speeds_stamped__type_support.cpp.o\n'}
+[47.714024] (-) TimerEvent: {}
+[47.814655] (-) TimerEvent: {}
+[47.915257] (-) TimerEvent: {}
+[48.015886] (-) TimerEvent: {}
+[48.116485] (-) TimerEvent: {}
+[48.217095] (-) TimerEvent: {}
+[48.317704] (-) TimerEvent: {}
+[48.418320] (-) TimerEvent: {}
+[48.518936] (-) TimerEvent: {}
+[48.619533] (-) TimerEvent: {}
+[48.720168] (-) TimerEvent: {}
+[48.820736] (-) TimerEvent: {}
+[48.921306] (-) TimerEvent: {}
+[49.021877] (-) TimerEvent: {}
+[49.122467] (-) TimerEvent: {}
+[49.223092] (-) TimerEvent: {}
+[49.323789] (-) TimerEvent: {}
+[49.424373] (-) TimerEvent: {}
+[49.524943] (-) TimerEvent: {}
+[49.625507] (-) TimerEvent: {}
+[49.726107] (-) TimerEvent: {}
+[49.826724] (-) TimerEvent: {}
+[49.927323] (-) TimerEvent: {}
+[50.023219] (me416_msgs) StdoutLine: {'line': b'[ 33%] Linking CXX shared library libme416_msgs__rosidl_typesupport_cpp.so\n'}
+[50.028182] (-) TimerEvent: {}
+[50.129054] (-) TimerEvent: {}
+[50.229644] (-) TimerEvent: {}
+[50.268110] (me416_msgs) StdoutLine: {'line': b'[ 33%] Built target me416_msgs__rosidl_typesupport_cpp\n'}
+[50.325699] (me416_msgs) StdoutLine: {'line': b'[ 35%] Generating C code for ROS interfaces\n'}
+[50.329907] (-) TimerEvent: {}
+[50.430505] (-) TimerEvent: {}
+[50.531056] (-) TimerEvent: {}
+[50.631633] (-) TimerEvent: {}
+[50.732353] (-) TimerEvent: {}
+[50.833060] (-) TimerEvent: {}
+[50.933645] (-) TimerEvent: {}
+[51.034224] (-) TimerEvent: {}
+[51.134803] (-) TimerEvent: {}
+[51.235357] (-) TimerEvent: {}
+[51.335959] (-) TimerEvent: {}
+[51.436535] (-) TimerEvent: {}
+[51.537105] (-) TimerEvent: {}
+[51.637667] (-) TimerEvent: {}
+[51.738256] (-) TimerEvent: {}
+[51.838813] (-) TimerEvent: {}
+[51.939371] (-) TimerEvent: {}
+[52.039934] (-) TimerEvent: {}
+[52.140470] (-) TimerEvent: {}
+[52.241010] (-) TimerEvent: {}
+[52.341572] (-) TimerEvent: {}
+[52.442125] (-) TimerEvent: {}
+[52.542696] (-) TimerEvent: {}
+[52.643245] (-) TimerEvent: {}
+[52.743940] (-) TimerEvent: {}
+[52.844538] (-) TimerEvent: {}
+[52.945197] (-) TimerEvent: {}
+[53.045748] (-) TimerEvent: {}
+[53.146325] (-) TimerEvent: {}
+[53.246929] (-) TimerEvent: {}
+[53.347540] (-) TimerEvent: {}
+[53.448164] (-) TimerEvent: {}
+[53.548739] (-) TimerEvent: {}
+[53.649348] (-) TimerEvent: {}
+[53.749948] (-) TimerEvent: {}
+[53.835978] (me416_msgs) StdoutLine: {'line': b'[ 38%] Building C object CMakeFiles/me416_msgs__rosidl_generator_c.dir/rosidl_generator_c/me416_msgs/msg/detail/motor_speeds__functions.c.o\n'}
+[53.850197] (-) TimerEvent: {}
+[53.950770] (-) TimerEvent: {}
+[54.051776] (-) TimerEvent: {}
+[54.152380] (-) TimerEvent: {}
+[54.164816] (me416_msgs) StdoutLine: {'line': b'[ 41%] Building C object CMakeFiles/me416_msgs__rosidl_generator_c.dir/rosidl_generator_c/me416_msgs/msg/detail/motor_speeds_stamped__functions.c.o\n'}
+[54.252626] (-) TimerEvent: {}
+[54.353207] (-) TimerEvent: {}
+[54.454891] (-) TimerEvent: {}
+[54.514523] (me416_msgs) StdoutLine: {'line': b'[ 43%] Linking C shared library libme416_msgs__rosidl_generator_c.so\n'}
+[54.554786] (-) TimerEvent: {}
+[54.655376] (-) TimerEvent: {}
+[54.756003] (-) TimerEvent: {}
+[54.795434] (me416_msgs) StdoutLine: {'line': b'[ 43%] Built target me416_msgs__rosidl_generator_c\n'}
+[54.856225] (-) TimerEvent: {}
+[54.866154] (me416_msgs) StdoutLine: {'line': b'[ 46%] Generating C type support for eProsima Fast-RTPS\n'}
+[54.956509] (-) TimerEvent: {}
+[55.057157] (-) TimerEvent: {}
+[55.159963] (-) TimerEvent: {}
+[55.260992] (-) TimerEvent: {}
+[55.361594] (-) TimerEvent: {}
+[55.462159] (-) TimerEvent: {}
+[55.562713] (-) TimerEvent: {}
+[55.663270] (-) TimerEvent: {}
+[55.763889] (-) TimerEvent: {}
+[55.864485] (-) TimerEvent: {}
+[55.965069] (-) TimerEvent: {}
+[56.065646] (-) TimerEvent: {}
+[56.166189] (-) TimerEvent: {}
+[56.266755] (-) TimerEvent: {}
+[56.367323] (-) TimerEvent: {}
+[56.467930] (-) TimerEvent: {}
+[56.568504] (-) TimerEvent: {}
+[56.669104] (-) TimerEvent: {}
+[56.769683] (-) TimerEvent: {}
+[56.870267] (-) TimerEvent: {}
+[56.970826] (-) TimerEvent: {}
+[57.071388] (-) TimerEvent: {}
+[57.171921] (-) TimerEvent: {}
+[57.272491] (-) TimerEvent: {}
+[57.373055] (-) TimerEvent: {}
+[57.473643] (-) TimerEvent: {}
+[57.574229] (-) TimerEvent: {}
+[57.674821] (-) TimerEvent: {}
+[57.775443] (-) TimerEvent: {}
+[57.867374] (me416_msgs) StdoutLine: {'line': b'[ 48%] Building CXX object CMakeFiles/me416_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/me416_msgs/msg/detail/motor_speeds__type_support_c.cpp.o\n'}
+[57.875794] (-) TimerEvent: {}
+[57.976439] (-) TimerEvent: {}
+[58.077070] (-) TimerEvent: {}
+[58.177672] (-) TimerEvent: {}
+[58.278287] (-) TimerEvent: {}
+[58.378910] (-) TimerEvent: {}
+[58.479521] (-) TimerEvent: {}
+[58.580186] (-) TimerEvent: {}
+[58.680778] (-) TimerEvent: {}
+[58.781403] (-) TimerEvent: {}
+[58.882022] (-) TimerEvent: {}
+[58.982622] (-) TimerEvent: {}
+[59.083207] (-) TimerEvent: {}
+[59.183889] (-) TimerEvent: {}
+[59.284506] (-) TimerEvent: {}
+[59.385117] (-) TimerEvent: {}
+[59.485711] (-) TimerEvent: {}
+[59.586315] (-) TimerEvent: {}
+[59.686901] (-) TimerEvent: {}
+[59.787501] (-) TimerEvent: {}
+[59.888136] (-) TimerEvent: {}
+[59.988734] (-) TimerEvent: {}
+[60.089318] (-) TimerEvent: {}
+[60.189922] (-) TimerEvent: {}
+[60.290549] (-) TimerEvent: {}
+[60.391162] (-) TimerEvent: {}
+[60.491813] (-) TimerEvent: {}
+[60.592411] (-) TimerEvent: {}
+[60.693066] (-) TimerEvent: {}
+[60.720446] (me416_msgs) StdoutLine: {'line': b'[ 51%] Building CXX object CMakeFiles/me416_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/me416_msgs/msg/detail/motor_speeds_stamped__type_support_c.cpp.o\n'}
+[60.793319] (-) TimerEvent: {}
+[60.893924] (-) TimerEvent: {}
+[60.994535] (-) TimerEvent: {}
+[61.095104] (-) TimerEvent: {}
+[61.195690] (-) TimerEvent: {}
+[61.296361] (-) TimerEvent: {}
+[61.396960] (-) TimerEvent: {}
+[61.497556] (-) TimerEvent: {}
+[61.598159] (-) TimerEvent: {}
+[61.698757] (-) TimerEvent: {}
+[61.799374] (-) TimerEvent: {}
+[61.900028] (-) TimerEvent: {}
+[62.000640] (-) TimerEvent: {}
+[62.104547] (-) TimerEvent: {}
+[62.205134] (-) TimerEvent: {}
+[62.305725] (-) TimerEvent: {}
+[62.406309] (-) TimerEvent: {}
+[62.506900] (-) TimerEvent: {}
+[62.607502] (-) TimerEvent: {}
+[62.708135] (-) TimerEvent: {}
+[62.808740] (-) TimerEvent: {}
+[62.909353] (-) TimerEvent: {}
+[63.009937] (-) TimerEvent: {}
+[63.110514] (-) TimerEvent: {}
+[63.211118] (-) TimerEvent: {}
+[63.311780] (-) TimerEvent: {}
+[63.412377] (-) TimerEvent: {}
+[63.512950] (-) TimerEvent: {}
+[63.577856] (me416_msgs) StdoutLine: {'line': b'[ 53%] Linking CXX shared library libme416_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[63.613228] (-) TimerEvent: {}
+[63.713847] (-) TimerEvent: {}
+[63.814427] (-) TimerEvent: {}
+[63.915033] (-) TimerEvent: {}
+[64.015616] (-) TimerEvent: {}
+[64.116268] (-) TimerEvent: {}
+[64.140349] (me416_msgs) StdoutLine: {'line': b'[ 53%] Built target me416_msgs__rosidl_typesupport_fastrtps_c\n'}
+[64.199504] (me416_msgs) StdoutLine: {'line': b'[ 56%] Generating C type support dispatch for ROS interfaces\n'}
+[64.216562] (-) TimerEvent: {}
+[64.317208] (-) TimerEvent: {}
+[64.417789] (-) TimerEvent: {}
+[64.518368] (-) TimerEvent: {}
+[64.618914] (-) TimerEvent: {}
+[64.719581] (-) TimerEvent: {}
+[64.820255] (-) TimerEvent: {}
+[64.920822] (-) TimerEvent: {}
+[65.021375] (-) TimerEvent: {}
+[65.121924] (-) TimerEvent: {}
+[65.222499] (-) TimerEvent: {}
+[65.323090] (-) TimerEvent: {}
+[65.423664] (-) TimerEvent: {}
+[65.524596] (-) TimerEvent: {}
+[65.625171] (-) TimerEvent: {}
+[65.725764] (-) TimerEvent: {}
+[65.826434] (-) TimerEvent: {}
+[65.927001] (-) TimerEvent: {}
+[66.027584] (-) TimerEvent: {}
+[66.128192] (-) TimerEvent: {}
+[66.228747] (-) TimerEvent: {}
+[66.329323] (-) TimerEvent: {}
+[66.429897] (-) TimerEvent: {}
+[66.530515] (-) TimerEvent: {}
+[66.631113] (-) TimerEvent: {}
+[66.682435] (me416_msgs) StdoutLine: {'line': b'[ 58%] Building CXX object CMakeFiles/me416_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/me416_msgs/msg/motor_speeds__type_support.cpp.o\n'}
+[66.731376] (-) TimerEvent: {}
+[66.831957] (-) TimerEvent: {}
+[66.879938] (me416_msgs) StdoutLine: {'line': b'[ 61%] Building CXX object CMakeFiles/me416_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/me416_msgs/msg/motor_speeds_stamped__type_support.cpp.o\n'}
+[66.932247] (-) TimerEvent: {}
+[67.032906] (-) TimerEvent: {}
+[67.089447] (me416_msgs) StdoutLine: {'line': b'[ 64%] Linking CXX shared library libme416_msgs__rosidl_typesupport_c.so\n'}
+[67.133131] (-) TimerEvent: {}
+[67.233723] (-) TimerEvent: {}
+[67.334317] (-) TimerEvent: {}
+[67.343497] (me416_msgs) StdoutLine: {'line': b'[ 64%] Built target me416_msgs__rosidl_typesupport_c\n'}
+[67.411960] (me416_msgs) StdoutLine: {'line': b'[ 66%] Generating C introspection for ROS interfaces\n'}
+[67.434590] (-) TimerEvent: {}
+[67.535211] (-) TimerEvent: {}
+[67.635829] (-) TimerEvent: {}
+[67.736448] (-) TimerEvent: {}
+[67.837037] (-) TimerEvent: {}
+[67.937628] (-) TimerEvent: {}
+[68.038196] (-) TimerEvent: {}
+[68.138770] (-) TimerEvent: {}
+[68.239356] (-) TimerEvent: {}
+[68.339981] (-) TimerEvent: {}
+[68.440565] (-) TimerEvent: {}
+[68.541150] (-) TimerEvent: {}
+[68.641763] (-) TimerEvent: {}
+[68.742341] (-) TimerEvent: {}
+[68.842955] (-) TimerEvent: {}
+[68.943542] (-) TimerEvent: {}
+[69.044153] (-) TimerEvent: {}
+[69.144732] (-) TimerEvent: {}
+[69.245274] (-) TimerEvent: {}
+[69.345843] (-) TimerEvent: {}
+[69.446405] (-) TimerEvent: {}
+[69.546938] (-) TimerEvent: {}
+[69.647478] (-) TimerEvent: {}
+[69.748163] (-) TimerEvent: {}
+[69.848748] (-) TimerEvent: {}
+[69.949339] (-) TimerEvent: {}
+[70.049934] (-) TimerEvent: {}
+[70.150533] (-) TimerEvent: {}
+[70.251152] (-) TimerEvent: {}
+[70.333318] (me416_msgs) StdoutLine: {'line': b'[ 69%] Building C object CMakeFiles/me416_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/me416_msgs/msg/detail/motor_speeds__type_support.c.o\n'}
+[70.351458] (-) TimerEvent: {}
+[70.452140] (-) TimerEvent: {}
+[70.552732] (-) TimerEvent: {}
+[70.553775] (me416_msgs) StdoutLine: {'line': b'[ 71%] Building C object CMakeFiles/me416_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/me416_msgs/msg/detail/motor_speeds_stamped__type_support.c.o\n'}
+[70.652987] (-) TimerEvent: {}
+[70.753628] (-) TimerEvent: {}
+[70.776676] (me416_msgs) StdoutLine: {'line': b'[ 74%] Linking C shared library libme416_msgs__rosidl_typesupport_introspection_c.so\n'}
+[70.853916] (-) TimerEvent: {}
+[70.954547] (-) TimerEvent: {}
+[70.963693] (me416_msgs) StdoutLine: {'line': b'[ 74%] Built target me416_msgs__rosidl_typesupport_introspection_c\n'}
+[71.054802] (-) TimerEvent: {}
+[71.083781] (me416_msgs) StdoutLine: {'line': b'[ 74%] Built target me416_msgs\n'}
+[71.155025] (-) TimerEvent: {}
+[71.204721] (me416_msgs) StdoutLine: {'line': b'[ 76%] Generating Python code for ROS interfaces\n'}
+[71.255278] (-) TimerEvent: {}
+[71.355911] (-) TimerEvent: {}
+[71.456500] (-) TimerEvent: {}
+[71.557068] (-) TimerEvent: {}
+[71.657680] (-) TimerEvent: {}
+[71.758311] (-) TimerEvent: {}
+[71.858886] (-) TimerEvent: {}
+[71.959441] (-) TimerEvent: {}
+[72.060056] (-) TimerEvent: {}
+[72.160591] (-) TimerEvent: {}
+[72.261156] (-) TimerEvent: {}
+[72.362035] (-) TimerEvent: {}
+[72.462912] (-) TimerEvent: {}
+[72.563468] (-) TimerEvent: {}
+[72.664116] (-) TimerEvent: {}
+[72.764692] (-) TimerEvent: {}
+[72.865272] (-) TimerEvent: {}
+[72.965817] (-) TimerEvent: {}
+[73.066373] (-) TimerEvent: {}
+[73.166975] (-) TimerEvent: {}
+[73.267579] (-) TimerEvent: {}
+[73.368194] (-) TimerEvent: {}
+[73.468761] (-) TimerEvent: {}
+[73.569370] (-) TimerEvent: {}
+[73.670033] (-) TimerEvent: {}
+[73.770687] (-) TimerEvent: {}
+[73.871277] (-) TimerEvent: {}
+[73.971918] (-) TimerEvent: {}
+[74.072525] (-) TimerEvent: {}
+[74.173105] (-) TimerEvent: {}
+[74.273679] (-) TimerEvent: {}
+[74.374252] (-) TimerEvent: {}
+[74.474843] (-) TimerEvent: {}
+[74.575431] (-) TimerEvent: {}
+[74.676043] (-) TimerEvent: {}
+[74.776613] (-) TimerEvent: {}
+[74.877187] (-) TimerEvent: {}
+[74.977781] (-) TimerEvent: {}
+[75.078376] (-) TimerEvent: {}
+[75.178998] (-) TimerEvent: {}
+[75.279624] (-) TimerEvent: {}
+[75.380326] (-) TimerEvent: {}
+[75.482088] (-) TimerEvent: {}
+[75.535966] (me416_msgs) StdoutLine: {'line': b'[ 76%] Built target me416_msgs__py\n'}
+[75.581952] (-) TimerEvent: {}
+[75.661270] (me416_msgs) StdoutLine: {'line': b'[ 79%] Building C object CMakeFiles/me416_msgs__rosidl_generator_py.dir/rosidl_generator_py/me416_msgs/msg/_motor_speeds_s.c.o\n'}
+[75.682197] (-) TimerEvent: {}
+[75.782810] (-) TimerEvent: {}
+[75.883448] (-) TimerEvent: {}
+[75.984134] (-) TimerEvent: {}
+[76.084819] (-) TimerEvent: {}
+[76.185556] (-) TimerEvent: {}
+[76.286155] (-) TimerEvent: {}
+[76.386724] (-) TimerEvent: {}
+[76.487291] (-) TimerEvent: {}
+[76.497660] (me416_msgs) StdoutLine: {'line': b'[ 82%] Building C object CMakeFiles/me416_msgs__rosidl_generator_py.dir/rosidl_generator_py/me416_msgs/msg/_motor_speeds_stamped_s.c.o\n'}
+[76.587558] (-) TimerEvent: {}
+[76.688654] (-) TimerEvent: {}
+[76.789265] (-) TimerEvent: {}
+[76.889867] (-) TimerEvent: {}
+[76.990480] (-) TimerEvent: {}
+[77.091081] (-) TimerEvent: {}
+[77.191685] (-) TimerEvent: {}
+[77.218379] (me416_msgs) StdoutLine: {'line': b'[ 84%] Linking C shared library rosidl_generator_py/me416_msgs/libme416_msgs__rosidl_generator_py.so\n'}
+[77.291938] (-) TimerEvent: {}
+[77.392514] (-) TimerEvent: {}
+[77.493127] (-) TimerEvent: {}
+[77.538862] (me416_msgs) StdoutLine: {'line': b'[ 84%] Built target me416_msgs__rosidl_generator_py\n'}
+[77.593364] (-) TimerEvent: {}
+[77.672245] (me416_msgs) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/me416_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/me416_msgs/_me416_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[77.693609] (-) TimerEvent: {}
+[77.794224] (-) TimerEvent: {}
+[77.894815] (-) TimerEvent: {}
+[77.995510] (-) TimerEvent: {}
+[78.096255] (-) TimerEvent: {}
+[78.196897] (-) TimerEvent: {}
+[78.297558] (-) TimerEvent: {}
+[78.372005] (me416_msgs) StdoutLine: {'line': b'[ 89%] Linking C shared library rosidl_generator_py/me416_msgs/me416_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[78.397815] (-) TimerEvent: {}
+[78.498429] (-) TimerEvent: {}
+[78.599055] (-) TimerEvent: {}
+[78.667886] (me416_msgs) StdoutLine: {'line': b'[ 89%] Built target me416_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[78.699323] (-) TimerEvent: {}
+[78.790697] (me416_msgs) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/me416_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/me416_msgs/_me416_msgs_s.ep.rosidl_typesupport_c.c.o\n'}
+[78.799576] (-) TimerEvent: {}
+[78.900193] (-) TimerEvent: {}
+[79.000846] (-) TimerEvent: {}
+[79.101465] (-) TimerEvent: {}
+[79.202260] (-) TimerEvent: {}
+[79.302874] (-) TimerEvent: {}
+[79.403476] (-) TimerEvent: {}
+[79.494487] (me416_msgs) StdoutLine: {'line': b'[ 94%] Linking C shared library rosidl_generator_py/me416_msgs/me416_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[79.503960] (-) TimerEvent: {}
+[79.604856] (-) TimerEvent: {}
+[79.705419] (-) TimerEvent: {}
+[79.795680] (me416_msgs) StdoutLine: {'line': b'[ 94%] Built target me416_msgs__rosidl_typesupport_c__pyext\n'}
+[79.805817] (-) TimerEvent: {}
+[79.906709] (-) TimerEvent: {}
+[79.930853] (me416_msgs) StdoutLine: {'line': b'[ 97%] Building C object CMakeFiles/me416_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/me416_msgs/_me416_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[80.006973] (-) TimerEvent: {}
+[80.108124] (-) TimerEvent: {}
+[80.208715] (-) TimerEvent: {}
+[80.309357] (-) TimerEvent: {}
+[80.409977] (-) TimerEvent: {}
+[80.510574] (-) TimerEvent: {}
+[80.611262] (-) TimerEvent: {}
+[80.622466] (me416_msgs) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/me416_msgs/me416_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[80.711979] (-) TimerEvent: {}
+[80.812635] (-) TimerEvent: {}
+[80.913257] (-) TimerEvent: {}
+[80.918163] (me416_msgs) StdoutLine: {'line': b'[100%] Built target me416_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[80.991495] (me416_msgs) CommandEnded: {'returncode': 0}
+[81.013498] (-) TimerEvent: {}
+[81.114082] (-) TimerEvent: {}
+[81.214690] (-) TimerEvent: {}
+[81.316155] (-) TimerEvent: {}
+[81.351471] (me416_msgs) JobProgress: {'identifier': 'me416_msgs', 'progress': 'install'}
+[81.407397] (me416_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/rastic_ws/build/me416_msgs'], 'cwd': '/home/ubuntu/rastic_ws/build/me416_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.239.130.92 55303 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rastic_cl/scripts'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONBREAKPOINT', 'ipdb.set_trace'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/rastic_cl:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/rastic_ws/build/me416_msgs'), ('SSH_CONNECTION', '10.239.130.92 55303 128.197.50.173 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('ROS_WORKSPACE', '/home/ubuntu/rastic_ws/'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[81.416404] (-) TimerEvent: {}
+[81.461871] (me416_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[81.466953] (me416_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[81.469519] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/ament_index/resource_index/rosidl_interfaces/me416_msgs\n'}
+[81.516619] (-) TimerEvent: {}
+[81.526368] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds__functions.h\n'}
+[81.578350] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds__struct.h\n'}
+[81.616863] (-) TimerEvent: {}
+[81.632713] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds__type_support.h\n'}
+[81.687348] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds_stamped__functions.h\n'}
+[81.717124] (-) TimerEvent: {}
+[81.740636] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds_stamped__struct.h\n'}
+[81.797652] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds_stamped__type_support.h\n'}
+[81.817427] (-) TimerEvent: {}
+[81.860304] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/motor_speeds.h\n'}
+[81.918335] (-) TimerEvent: {}
+[81.922602] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/motor_speeds_stamped.h\n'}
+[81.994689] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[82.018518] (-) TimerEvent: {}
+[82.066890] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/environment/library_path.sh\n'}
+[82.120144] (-) TimerEvent: {}
+[82.131479] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/environment/library_path.dsv\n'}
+[82.206405] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds__rosidl_typesupport_fastrtps_c.h\n'}
+[82.219694] (-) TimerEvent: {}
+[82.267044] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[82.319949] (-) TimerEvent: {}
+[82.338682] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[82.418066] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds__rosidl_typesupport_introspection_c.h\n'}
+[82.422060] (-) TimerEvent: {}
+[82.488604] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds_stamped__rosidl_typesupport_introspection_c.h\n'}
+[82.522300] (-) TimerEvent: {}
+[82.557898] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[82.622846] (-) TimerEvent: {}
+[82.632549] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds__builder.hpp\n'}
+[82.688294] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds__struct.hpp\n'}
+[82.722936] (-) TimerEvent: {}
+[82.741433] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds__traits.hpp\n'}
+[82.793917] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds_stamped__builder.hpp\n'}
+[82.823182] (-) TimerEvent: {}
+[82.847441] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds_stamped__struct.hpp\n'}
+[82.902576] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds_stamped__traits.hpp\n'}
+[82.923478] (-) TimerEvent: {}
+[82.965989] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/motor_speeds.hpp\n'}
+[83.025170] (-) TimerEvent: {}
+[83.040388] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/motor_speeds_stamped.hpp\n'}
+[83.110343] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[83.125031] (-) TimerEvent: {}
+[83.165378] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[83.221457] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[83.225262] (-) TimerEvent: {}
+[83.274304] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds__rosidl_typesupport_introspection_cpp.hpp\n'}
+[83.325206] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/include/me416_msgs/me416_msgs/msg/detail/motor_speeds_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[83.326563] (-) TimerEvent: {}
+[83.378277] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/environment/pythonpath.sh\n'}
+[83.426829] (-) TimerEvent: {}
+[83.432864] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/environment/pythonpath.dsv\n'}
+[83.490188] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[83.527059] (-) TimerEvent: {}
+[83.544938] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[83.600546] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[83.627293] (-) TimerEvent: {}
+[83.655089] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[83.713592] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/__init__.py\n'}
+[83.727522] (-) TimerEvent: {}
+[83.767688] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/_me416_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[83.823090] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/_me416_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[83.827820] (-) TimerEvent: {}
+[83.877169] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/_me416_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[83.927968] (-) TimerEvent: {}
+[83.931435] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/libme416_msgs__rosidl_generator_py.so\n'}
+[83.986418] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/me416_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[84.028221] (-) TimerEvent: {}
+[84.041241] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/me416_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[84.095573] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/me416_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[84.128477] (-) TimerEvent: {}
+[84.150407] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/msg/__init__.py\n'}
+[84.204769] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/msg/_motor_speeds.py\n'}
+[84.228747] (-) TimerEvent: {}
+[84.261424] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/msg/_motor_speeds_s.c\n'}
+[84.324584] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/msg/_motor_speeds_stamped.py\n'}
+[84.329369] (-) TimerEvent: {}
+[84.398208] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/msg/_motor_speeds_stamped_s.c\n'}
+[84.429582] (-) TimerEvent: {}
+[84.481424] (me416_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/me416_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[84.490034] (me416_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/me416_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[84.498601] (me416_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/me416_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[84.505656] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/msg/MotorSpeeds.idl\n'}
+[84.529908] (-) TimerEvent: {}
+[84.581345] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/msg/MotorSpeedsStamped.idl\n'}
+[84.630204] (-) TimerEvent: {}
+[84.653925] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/msg/MotorSpeeds.msg\n'}
+[84.725633] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/msg/MotorSpeedsStamped.msg\n'}
+[84.730920] (-) TimerEvent: {}
+[84.799212] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/ament_index/resource_index/package_run_dependencies/me416_msgs\n'}
+[84.831146] (-) TimerEvent: {}
+[84.873660] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/ament_index/resource_index/parent_prefix_path/me416_msgs\n'}
+[84.932695] (-) TimerEvent: {}
+[84.945905] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/environment/ament_prefix_path.sh\n'}
+[85.025326] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/environment/ament_prefix_path.dsv\n'}
+[85.033604] (-) TimerEvent: {}
+[85.114792] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/environment/path.sh\n'}
+[85.134062] (-) TimerEvent: {}
+[85.181337] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/environment/path.dsv\n'}
+[85.234589] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/local_setup.bash\n'}
+[85.236034] (-) TimerEvent: {}
+[85.286948] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/local_setup.sh\n'}
+[85.336287] (-) TimerEvent: {}
+[85.340102] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/local_setup.zsh\n'}
+[85.396892] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/local_setup.dsv\n'}
+[85.436551] (-) TimerEvent: {}
+[85.462419] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/package.dsv\n'}
+[85.527462] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/ament_index/resource_index/packages/me416_msgs\n'}
+[85.536936] (-) TimerEvent: {}
+[85.602196] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[85.637323] (-) TimerEvent: {}
+[85.660760] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[85.715395] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[85.737575] (-) TimerEvent: {}
+[85.767064] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[85.824163] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[85.837918] (-) TimerEvent: {}
+[85.885734] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[85.938282] (-) TimerEvent: {}
+[85.951034] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[86.007592] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/me416_msgsConfig.cmake\n'}
+[86.038528] (-) TimerEvent: {}
+[86.062928] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/me416_msgsConfig-version.cmake\n'}
+[86.118157] (me416_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/package.xml\n'}
+[86.138788] (-) TimerEvent: {}
+[86.173870] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/lib/libme416_msgs__rosidl_generator_c.so\n'}
+[86.182624] (me416_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/rastic_ws/install/me416_msgs/lib/libme416_msgs__rosidl_generator_c.so" to ""\n'}
+[86.183994] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/lib/libme416_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[86.189062] (me416_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/rastic_ws/install/me416_msgs/lib/libme416_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[86.190438] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/lib/libme416_msgs__rosidl_typesupport_introspection_c.so\n'}
+[86.194790] (me416_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/rastic_ws/install/me416_msgs/lib/libme416_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[86.196149] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/lib/libme416_msgs__rosidl_typesupport_c.so\n'}
+[86.200370] (me416_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/rastic_ws/install/me416_msgs/lib/libme416_msgs__rosidl_typesupport_c.so" to ""\n'}
+[86.201643] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/lib/libme416_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[86.204433] (me416_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/rastic_ws/install/me416_msgs/lib/libme416_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[86.205741] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/lib/libme416_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[86.208446] (me416_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/rastic_ws/install/me416_msgs/lib/libme416_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[86.209622] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/lib/libme416_msgs__rosidl_typesupport_cpp.so\n'}
+[86.211590] (me416_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/rastic_ws/install/me416_msgs/lib/libme416_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[86.239005] (-) TimerEvent: {}
+[86.339561] (-) TimerEvent: {}
+[86.440157] (-) TimerEvent: {}
+[86.493273] (me416_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs'...\n"}
+[86.494601] (me416_msgs) StdoutLine: {'line': b"Compiling '/home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/__init__.py'...\n"}
+[86.495960] (me416_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/msg'...\n"}
+[86.497198] (me416_msgs) StdoutLine: {'line': b"Compiling '/home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/msg/__init__.py'...\n"}
+[86.498672] (me416_msgs) StdoutLine: {'line': b"Compiling '/home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/msg/_motor_speeds.py'...\n"}
+[86.499930] (me416_msgs) StdoutLine: {'line': b"Compiling '/home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages/me416_msgs/msg/_motor_speeds_stamped.py'...\n"}
+[86.540400] (-) TimerEvent: {}
+[86.551444] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/lib/libme416_msgs__rosidl_generator_py.so\n'}
+[86.556780] (me416_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/rastic_ws/install/me416_msgs/lib/libme416_msgs__rosidl_generator_py.so" to ""\n'}
+[86.562010] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/export_me416_msgs__rosidl_generator_cExport.cmake\n'}
+[86.564285] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/export_me416_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[86.568889] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/export_me416_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[86.574180] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/export_me416_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[86.575537] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/me416_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[86.576895] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/me416_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[86.578274] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/me416_msgs__rosidl_typesupport_cExport.cmake\n'}
+[86.579561] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/me416_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[86.581054] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/export_me416_msgs__rosidl_generator_cppExport.cmake\n'}
+[86.583667] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/export_me416_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[86.585589] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/export_me416_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[86.591016] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/me416_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[86.593334] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/me416_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[86.596453] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/me416_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[86.599575] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/me416_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[86.603391] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/export_me416_msgs__rosidl_generator_pyExport.cmake\n'}
+[86.606676] (me416_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/cmake/export_me416_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[86.609038] (me416_msgs) CommandEnded: {'returncode': 0}
+[86.640629] (-) TimerEvent: {}
+[86.741614] (-) TimerEvent: {}
+[86.844384] (-) TimerEvent: {}
+[86.945423] (-) TimerEvent: {}
+[87.046459] (-) TimerEvent: {}
+[87.147146] (-) TimerEvent: {}
+[87.248837] (-) TimerEvent: {}
+[87.350046] (-) TimerEvent: {}
+[87.456191] (-) TimerEvent: {}
+[87.556972] (-) TimerEvent: {}
+[87.657741] (-) TimerEvent: {}
+[87.758912] (-) TimerEvent: {}
+[87.859542] (-) TimerEvent: {}
+[87.960236] (-) TimerEvent: {}
+[88.062376] (-) TimerEvent: {}
+[88.163851] (-) TimerEvent: {}
+[88.265971] (-) TimerEvent: {}
+[88.366658] (-) TimerEvent: {}
+[88.467881] (-) TimerEvent: {}
+[88.569591] (-) TimerEvent: {}
+[88.670598] (-) TimerEvent: {}
+[88.771967] (-) TimerEvent: {}
+[88.872837] (-) TimerEvent: {}
+[88.974872] (-) TimerEvent: {}
+[88.987094] (me416_msgs) JobEnded: {'identifier': 'me416_msgs', 'rc': 0}
+[88.993266] (me416_lab) JobStarted: {'identifier': 'me416_lab'}
+[89.075336] (-) TimerEvent: {}
+[89.177828] (-) TimerEvent: {}
+[89.278467] (-) TimerEvent: {}
+[89.380734] (-) TimerEvent: {}
+[89.481375] (-) TimerEvent: {}
+[89.582281] (-) TimerEvent: {}
+[89.683873] (-) TimerEvent: {}
+[89.786573] (-) TimerEvent: {}
+[89.887150] (-) TimerEvent: {}
+[89.987685] (-) TimerEvent: {}
+[90.088290] (-) TimerEvent: {}
+[90.188839] (-) TimerEvent: {}
+[90.289401] (-) TimerEvent: {}
+[90.389978] (-) TimerEvent: {}
+[90.490519] (-) TimerEvent: {}
+[90.591067] (-) TimerEvent: {}
+[90.691619] (-) TimerEvent: {}
+[90.792264] (-) TimerEvent: {}
+[90.892823] (-) TimerEvent: {}
+[90.993397] (-) TimerEvent: {}
+[91.093985] (-) TimerEvent: {}
+[91.194561] (-) TimerEvent: {}
+[91.295130] (-) TimerEvent: {}
+[91.395689] (-) TimerEvent: {}
+[91.496330] (-) TimerEvent: {}
+[91.596875] (-) TimerEvent: {}
+[91.697459] (-) TimerEvent: {}
+[91.798036] (-) TimerEvent: {}
+[91.898581] (-) TimerEvent: {}
+[91.999135] (-) TimerEvent: {}
+[92.099691] (-) TimerEvent: {}
+[92.200352] (-) TimerEvent: {}
+[92.300920] (-) TimerEvent: {}
+[92.401816] (-) TimerEvent: {}
+[92.507382] (-) TimerEvent: {}
+[92.608498] (-) TimerEvent: {}
+[92.712337] (-) TimerEvent: {}
+[92.813687] (-) TimerEvent: {}
+[92.916916] (-) TimerEvent: {}
+[93.017799] (-) TimerEvent: {}
+[93.123940] (-) TimerEvent: {}
+[93.227579] (-) TimerEvent: {}
+[93.328200] (-) TimerEvent: {}
+[93.428892] (-) TimerEvent: {}
+[93.529462] (-) TimerEvent: {}
+[93.630020] (-) TimerEvent: {}
+[93.730585] (-) TimerEvent: {}
+[93.831161] (-) TimerEvent: {}
+[93.931786] (-) TimerEvent: {}
+[94.032340] (-) TimerEvent: {}
+[94.132899] (-) TimerEvent: {}
+[94.233428] (-) TimerEvent: {}
+[94.333972] (-) TimerEvent: {}
+[94.434515] (-) TimerEvent: {}
+[94.535058] (-) TimerEvent: {}
+[94.635588] (-) TimerEvent: {}
+[94.736245] (-) TimerEvent: {}
+[94.836780] (-) TimerEvent: {}
+[94.937306] (-) TimerEvent: {}
+[95.037833] (-) TimerEvent: {}
+[95.138356] (-) TimerEvent: {}
+[95.238918] (-) TimerEvent: {}
+[95.339530] (-) TimerEvent: {}
+[95.440179] (-) TimerEvent: {}
+[95.540716] (-) TimerEvent: {}
+[95.641270] (-) TimerEvent: {}
+[95.741848] (-) TimerEvent: {}
+[95.842412] (-) TimerEvent: {}
+[95.942942] (-) TimerEvent: {}
+[96.043496] (-) TimerEvent: {}
+[96.144212] (-) TimerEvent: {}
+[96.244900] (-) TimerEvent: {}
+[96.345501] (-) TimerEvent: {}
+[96.446077] (-) TimerEvent: {}
+[96.546678] (-) TimerEvent: {}
+[96.577708] (me416_lab) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/rastic_ws/build/me416_lab/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/rastic_ws/build/me416_lab', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.239.130.92 55303 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/rastic_ws/install/me416_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/rastic_cl/scripts', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'PYTHONBREAKPOINT': 'ipdb.set_trace', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '9', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/rastic_cl:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/rastic_ws/install/me416_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/rastic_ws/build/me416_lab', 'SSH_CONNECTION': '10.239.130.92 55303 128.197.50.173 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/rastic_ws/build/me416_lab/prefix_override:/home/ubuntu/rastic_ws/install/me416_lab/lib/python3.10/site-packages:/home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'ROS_WORKSPACE': '/home/ubuntu/rastic_ws/', 'CMAKE_PREFIX_PATH': '/home/ubuntu/rastic_ws/install/me416_msgs'}, 'shell': False}
+[96.646914] (-) TimerEvent: {}
+[96.747486] (-) TimerEvent: {}
+[96.848105] (-) TimerEvent: {}
+[96.948644] (-) TimerEvent: {}
+[97.049175] (-) TimerEvent: {}
+[97.149695] (-) TimerEvent: {}
+[97.250240] (-) TimerEvent: {}
+[97.350778] (-) TimerEvent: {}
+[97.451308] (-) TimerEvent: {}
+[97.551874] (-) TimerEvent: {}
+[97.652417] (-) TimerEvent: {}
+[97.753051] (-) TimerEvent: {}
+[97.853637] (-) TimerEvent: {}
+[97.954147] (-) TimerEvent: {}
+[98.054674] (-) TimerEvent: {}
+[98.155205] (-) TimerEvent: {}
+[98.255834] (-) TimerEvent: {}
+[98.356387] (-) TimerEvent: {}
+[98.456940] (-) TimerEvent: {}
+[98.557496] (-) TimerEvent: {}
+[98.658053] (-) TimerEvent: {}
+[98.758632] (-) TimerEvent: {}
+[98.859187] (-) TimerEvent: {}
+[98.959803] (-) TimerEvent: {}
+[99.060361] (-) TimerEvent: {}
+[99.160909] (-) TimerEvent: {}
+[99.222351] (me416_lab) StdoutLine: {'line': b'running develop\n'}
+[99.226830] (me416_lab) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[99.228123] (me416_lab) StderrLine: {'line': b'  warnings.warn(\n'}
+[99.237617] (me416_lab) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[99.238696] (me416_lab) StderrLine: {'line': b'  warnings.warn(\n'}
+[99.261123] (-) TimerEvent: {}
+[99.361654] (-) TimerEvent: {}
+[99.462184] (-) TimerEvent: {}
+[99.562716] (-) TimerEvent: {}
+[99.663261] (-) TimerEvent: {}
+[99.763862] (-) TimerEvent: {}
+[99.864371] (-) TimerEvent: {}
+[99.964907] (-) TimerEvent: {}
+[100.065430] (-) TimerEvent: {}
+[100.165975] (-) TimerEvent: {}
+[100.266539] (-) TimerEvent: {}
+[100.367106] (-) TimerEvent: {}
+[100.467651] (-) TimerEvent: {}
+[100.568268] (-) TimerEvent: {}
+[100.668805] (-) TimerEvent: {}
+[100.769386] (-) TimerEvent: {}
+[100.869934] (-) TimerEvent: {}
+[100.970496] (-) TimerEvent: {}
+[101.071058] (-) TimerEvent: {}
+[101.169303] (me416_lab) StdoutLine: {'line': b'running egg_info\n'}
+[101.171207] (-) TimerEvent: {}
+[101.171494] (me416_lab) StdoutLine: {'line': b'creating me416_lab.egg-info\n'}
+[101.173547] (me416_lab) StdoutLine: {'line': b'writing me416_lab.egg-info/PKG-INFO\n'}
+[101.175477] (me416_lab) StdoutLine: {'line': b'writing dependency_links to me416_lab.egg-info/dependency_links.txt\n'}
+[101.178122] (me416_lab) StdoutLine: {'line': b'writing entry points to me416_lab.egg-info/entry_points.txt\n'}
+[101.180202] (me416_lab) StdoutLine: {'line': b'writing requirements to me416_lab.egg-info/requires.txt\n'}
+[101.181421] (me416_lab) StdoutLine: {'line': b'writing top-level names to me416_lab.egg-info/top_level.txt\n'}
+[101.182602] (me416_lab) StdoutLine: {'line': b"writing manifest file 'me416_lab.egg-info/SOURCES.txt'\n"}
+[101.198097] (me416_lab) StdoutLine: {'line': b"reading manifest file 'me416_lab.egg-info/SOURCES.txt'\n"}
+[101.204774] (me416_lab) StdoutLine: {'line': b"writing manifest file 'me416_lab.egg-info/SOURCES.txt'\n"}
+[101.215277] (me416_lab) StdoutLine: {'line': b'running build_ext\n'}
+[101.217648] (me416_lab) StdoutLine: {'line': b'Creating /home/ubuntu/rastic_ws/install/me416_lab/lib/python3.10/site-packages/me416-lab.egg-link (link to .)\n'}
+[101.226577] (me416_lab) StdoutLine: {'line': b'Installing controller_line script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.228636] (me416_lab) StdoutLine: {'line': b'Installing controller_test script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.231479] (me416_lab) StdoutLine: {'line': b'Installing encoders_publisher script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.234316] (me416_lab) StdoutLine: {'line': b'Installing image_flipper script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.238051] (me416_lab) StdoutLine: {'line': b'Installing image_segment script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.240964] (me416_lab) StdoutLine: {'line': b'Installing key_op script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.243947] (me416_lab) StdoutLine: {'line': b'Installing key_terminate script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.246813] (me416_lab) StdoutLine: {'line': b'Installing listener script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.249670] (me416_lab) StdoutLine: {'line': b'Installing listener_accumulator script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.252497] (me416_lab) StdoutLine: {'line': b'Installing listener_class script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.255224] (me416_lab) StdoutLine: {'line': b'Installing motor_command script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.256566] (me416_lab) StdoutLine: {'line': b'Installing motorspeeds_talker script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.261370] (me416_lab) StdoutLine: {'line': b'Installing odometry_encoders script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.264238] (me416_lab) StdoutLine: {'line': b'Installing repeater script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.265539] (me416_lab) StdoutLine: {'line': b'Installing repeater_class script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.266872] (me416_lab) StdoutLine: {'line': b'Installing scripted_op script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.268408] (me416_lab) StdoutLine: {'line': b'Installing signal_generator script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.269731] (me416_lab) StdoutLine: {'line': b'Installing talker script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.271017] (me416_lab) StdoutLine: {'line': b'Installing talker_class script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.272299] (-) TimerEvent: {}
+[101.272637] (me416_lab) StdoutLine: {'line': b'Installing talker_interesting script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.273839] (me416_lab) StdoutLine: {'line': b'Installing zigzag_op script to /home/ubuntu/rastic_ws/install/me416_lab/lib/me416_lab\n'}
+[101.275068] (me416_lab) StdoutLine: {'line': b'\n'}
+[101.276422] (me416_lab) StdoutLine: {'line': b'Installed /home/ubuntu/rastic_ws/build/me416_lab\n'}
+[101.277625] (me416_lab) StdoutLine: {'line': b'running install_data\n'}
+[101.278831] (me416_lab) StdoutLine: {'line': b'creating /home/ubuntu/rastic_ws/install/me416_lab/share/ament_index\n'}
+[101.280275] (me416_lab) StdoutLine: {'line': b'creating /home/ubuntu/rastic_ws/install/me416_lab/share/ament_index/resource_index\n'}
+[101.281478] (me416_lab) StdoutLine: {'line': b'creating /home/ubuntu/rastic_ws/install/me416_lab/share/ament_index/resource_index/packages\n'}
+[101.282752] (me416_lab) StdoutLine: {'line': b'copying resource/me416_lab -> /home/ubuntu/rastic_ws/install/me416_lab/share/ament_index/resource_index/packages\n'}
+[101.284088] (me416_lab) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/rastic_ws/install/me416_lab/share/me416_lab\n'}
+[101.285374] (me416_lab) StdoutLine: {'line': b'copying launch/camera_launch.py -> /home/ubuntu/rastic_ws/install/me416_lab/share/me416_lab\n'}
+[101.372556] (-) TimerEvent: {}
+[101.473133] (-) TimerEvent: {}
+[101.542382] (me416_lab) CommandEnded: {'returncode': 0}
+[101.573989] (-) TimerEvent: {}
+[101.675335] (-) TimerEvent: {}
+[101.776439] (-) TimerEvent: {}
+[101.877420] (-) TimerEvent: {}
+[101.978179] (-) TimerEvent: {}
+[102.078824] (-) TimerEvent: {}
+[102.179367] (-) TimerEvent: {}
+[102.280918] (-) TimerEvent: {}
+[102.374628] (me416_lab) JobEnded: {'identifier': 'me416_lab', 'rc': 0}
+[102.379544] (-) EventReactorShutdown: {}

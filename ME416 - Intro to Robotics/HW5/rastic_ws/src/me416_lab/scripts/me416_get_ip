@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Get wifi IP address using "hostname -I"
+hostname -I

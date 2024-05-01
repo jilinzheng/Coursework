@@ -1,0 +1,4 @@
+msg/MotorSpeeds.idl
+msg/MotorSpeeds.msg
+msg/MotorSpeedsStamped.idl
+msg/MotorSpeedsStamped.msg
