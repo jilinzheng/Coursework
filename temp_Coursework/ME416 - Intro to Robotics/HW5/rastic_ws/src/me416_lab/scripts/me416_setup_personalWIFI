@@ -1,0 +1,56 @@
+#!/bin/bash
+# Script to crate/update the personal WIFI credentials
+
+# Ask for kerberos login (BU login)
+echo "Enter your WiFi name (SSID)"
+read -p "WiFi Name (SSID): " SSIDname
+
+# Check if the connection is already present in NetworkManager
+CONNECTION_NAME="${SSIDname}"
+nmcli c | grep -q "\<${CONNECTION_NAME}\>" # Look for the connection
+if test $? == 0
+then
+    echo "Connection ${CONNECTION_NAME} present"
+else
+    # Adding the connection to NetworkManager
+    sudo nmcli con add \
+         type wifi \
+         con-name "${CONNECTION_NAME}" \
+         ssid "${SSIDname}" \
+         wifi-sec.key-mgmt "wpa-psk" \
+         wifi-sec.psk 'password' \
+         connection.autoconnect-priority 10
+fi
+
+# Ask for Kerberos password
+COUNTER=3
+until [ $COUNTER -eq 0 ]; do
+        # Ask for password
+        read -sp "Enter WiFi password: " BUpasswd1
+        echo ""
+        read -sp "Retype WiFi password: " BUpasswd2
+        echo ""
+        # Check if password is the same, else try again
+        let COUNTER-=1
+        if [ "$BUpasswd1" == "$BUpasswd2" ]
+        then
+                break
+        elif [ $COUNTER -eq 0 ]
+        then
+                BUpasswd1=""
+                BUpasswd2=""
+        else
+                echo "Passwords do not match. Try again"
+        fi
+done
+
+# Update BUWifi login
+if [ -n "$SSIDname" ] && [ -n "$BUpasswd1" ]
+then
+        echo "Updating ${SSIDname} network credentials"
+        sudo nmcli c mod "${CONNECTION_NAME}" ssid "$SSIDname"
+        sudo nmcli c mod "${CONNECTION_NAME}" wifi-sec.psk "$BUpasswd1"
+else
+        echo "Not updating personal WiFi network credentials"
+fi
+echo ""

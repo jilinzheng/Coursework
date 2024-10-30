@@ -1,0 +1,64 @@
+#!/bin/bash
+# Script to update the BUWIFI credentials
+
+# Check if the BU_WIFI connection is already present in NetworkManager
+CONNECTION_NAME="eduroam_$(./me416_get_wifi_device)"
+nmcli c | grep -q "${CONNECTION_NAME}" # Look for the connection
+if test $? == 0
+then
+    echo "Modifying connection ${CONNECTION_NAME}"
+else
+    echo "New connection ${CONNECTION_NAME}"
+    # Adding BU_WIFI connection to NetworkManager
+    sudo nmcli con add \
+          type wifi \
+          con-name "${CONNECTION_NAME}" \
+          ifname $(./me416_get_wifi_device) \
+          ssid "eduroam" \
+          wifi-sec.key-mgmt "wpa-eap" \
+          802-1x.identity "username@bu.edu" \
+          802-1x.password "password" \
+          802-1x.domain-suffix-match "radius.bu.edu" \
+          802-1x.eap "peap" \
+          802-1x.phase2-auth "mschapv2" \
+          802-1x.system-ca-certs "false"
+fi
+
+# Ask for kerberos login (BU login)
+echo "Enter your BU email (e.g., 'tron@bu.edu')"
+read -p "BU login: " BUlogin
+# Ask for Kerberos password
+COUNTER=3
+until [ $COUNTER -eq 0 ]; do
+        # Ask for password
+        read -sp "Enter Kerberos password: " BUpasswd1
+        echo ""
+        read -sp "Retype Kerberos password: " BUpasswd2
+        echo ""
+        # Check if password is the same, else try again
+        let COUNTER-=1
+        if [ "$BUpasswd1" == "$BUpasswd2" ]
+        then
+                break
+        elif [ $COUNTER -eq 0 ]
+        then
+                BUpasswd1=""
+                BUpasswd2=""
+        else
+                echo "Passwords do not match. Try again"
+        fi
+done
+
+# Update BUWifi login
+if [ -n "$BUlogin" ] && [ -n "$BUpasswd1" ]
+then
+        echo "Updating BUWifi network credentials..."
+        sudo nmcli c mod "${CONNECTION_NAME}" 802-1x.identity "$BUlogin"
+        sudo nmcli c mod "${CONNECTION_NAME}" 802-1x.password "$BUpasswd1"
+        # Also update git
+        git config --global user.email "$BUlogin"
+        git config --global user.name "$BUlogin"
+else
+        echo "Not updating BUWifi network credentials..."
+fi
+echo ""

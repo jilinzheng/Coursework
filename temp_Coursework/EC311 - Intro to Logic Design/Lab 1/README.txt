@@ -1,0 +1,4 @@
+Jilin Zheng (U49258796) and Thomas Young (U52192434)
+
+Short discussion about ALU:
+I liked seeing the ALU in action on the board, but boy was it difficult to finish it off, after the ripple carry. It is really fast, with pretty much instant output based on input changes, but a shortcoming it has is that since it only uses 3 bits for the inputs and a carry in, the highest number it can represent is the decimal number 15. When performing subtraction, the lowest number we can get as an output is -4 (2's complement), since the output is only 3 bits. Overall a pretty intensive lab since there was a lot I had to learn for Verilog and MUX's and whatnot, but the end product is pretty satisfying to have (though I don't know if I would do this again...)!

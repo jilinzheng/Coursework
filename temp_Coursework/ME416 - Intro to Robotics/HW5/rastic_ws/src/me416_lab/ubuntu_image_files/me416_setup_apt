@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+sudo apt install -y emacs net-tools curl screen terminator ipython3 python3-ipdb
+# sudo apt remove -y libreoffice-base-core libreoffice-core libreoffice-common libreoffice-style-tango libreoffice-style-colibre libreoffice-style-elementary evolution-common evolution-data-server evolution-data-server-common thunderbird
+# sudo apt autoremove -y

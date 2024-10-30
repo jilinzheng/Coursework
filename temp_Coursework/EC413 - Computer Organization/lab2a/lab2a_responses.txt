@@ -1,0 +1,43 @@
+Jilin Zheng | EC413 Lab 2
+
+3. Default Program Execution
+The output is as follows:
+The sorted array is
+ 1234
+
+5. Addresses
+- SPIM puts the start of data at 0x10000000.
+- msg is at address 0x10010010.
+- count is at address 0x1001002C.
+
+6. Program Observation
+- numbs is initialized as [5,7,4,3].
+- init_loop loads [4,3,2,1] in that order into the numbs array, overwriting the previous values.
+- Once [4,3,2,1] have been loaded into numbs, sorting begins by comparing (using subtraction) two adjacent elements and swapping if necessary (into ascending order), i.e. the numbs array is sorted using BUBBLE SORT.
+- The final values printed are 1,2,3,4.
+
+8. Contents of Array at Breakpoint Encounters
+- numbs = [4,3,2,1] // at start; numbs is at address 0x10010000
+- numbs = [3,4,2,1] // after swap, 4 is at address 0x10010004
+- numbs = [3,2,4,1] // after swap, 4 is at address 0x10010008
+- numbs = [3,2,1,4]
+- numbs = [2,3,1,4]
+- numbs = [2,1,3,4]
+- numbs = [1,2,3,4]
+
+11. Repeat Step 8 with Modified Register and Array Element
+- numbs = [4,7,2,1]
+- numbs = [0,7,2,1]
+- numbs = [0,2,7,1]
+- numbs = [0,2,1,7]
+- numbs = [0,1,2,7]
+The output is as follows: 
+The sorted array is
+ 0127
+
+12. Modified Program
+- I have included my modifier program in this submission, and its changes are detailed below.
+- I added 4 more words to numbs (initialized as 1,2,6,8) and changed the count word to 8 (instead of 4). The original numbs array before sorting is now [5,7,4,3,1,2,6,8], and after sorting, ends up being numbs = [1,2,3,4,5,6,7,8], with output as follows:
+The sorted array is
+ 12345678
+

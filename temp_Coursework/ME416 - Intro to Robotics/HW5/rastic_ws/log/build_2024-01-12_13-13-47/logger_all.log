@@ -1,0 +1,204 @@
+[13.594s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[13.595s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb8f66ec0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb929aef0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb929aef0>>)
+[14.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[14.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[14.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[14.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[14.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[14.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[14.309s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/rastic_ws'
+[14.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[14.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[14.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[14.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[14.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[14.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[14.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[14.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[14.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[14.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[14.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[14.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[14.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[14.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[14.444s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[14.445s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[14.446s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[14.447s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[14.448s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[14.449s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[14.451s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[14.452s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[14.453s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[14.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[14.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[14.457s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[14.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[14.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[14.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[14.460s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[14.461s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[14.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[14.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[14.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[14.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[14.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[14.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[14.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/me416_lab) by extensions ['ignore', 'ignore_ament_install']
+[14.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/me416_lab) by extension 'ignore'
+[14.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/me416_lab) by extension 'ignore_ament_install'
+[14.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/me416_lab) by extensions ['colcon_pkg']
+[14.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/me416_lab) by extension 'colcon_pkg'
+[14.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/me416_lab) by extensions ['colcon_meta']
+[14.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/me416_lab) by extension 'colcon_meta'
+[14.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/me416_lab) by extensions ['ros']
+[14.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/me416_lab) by extension 'ros'
+[14.500s] DEBUG:colcon.colcon_core.package_identification:Package 'src/me416_lab' with type 'ros.ament_python' and name 'me416_lab'
+[14.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/me416_msgs) by extensions ['ignore', 'ignore_ament_install']
+[14.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/me416_msgs) by extension 'ignore'
+[14.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/me416_msgs) by extension 'ignore_ament_install'
+[14.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/me416_msgs) by extensions ['colcon_pkg']
+[14.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/me416_msgs) by extension 'colcon_pkg'
+[14.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/me416_msgs) by extensions ['colcon_meta']
+[14.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/me416_msgs) by extension 'colcon_meta'
+[14.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/me416_msgs) by extensions ['ros']
+[14.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/me416_msgs) by extension 'ros'
+[14.514s] DEBUG:colcon.colcon_core.package_identification:Package 'src/me416_msgs' with type 'ros.ament_cmake' and name 'me416_msgs'
+[14.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[14.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[14.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[14.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[14.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[15.650s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[15.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[16.079s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 236 installed packages in /opt/ros/humble
+[16.091s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[17.172s] Level 5:colcon.colcon_core.verb:set package 'me416_msgs' build argument 'cmake_args' from command line to 'None'
+[17.172s] Level 5:colcon.colcon_core.verb:set package 'me416_msgs' build argument 'cmake_target' from command line to 'None'
+[17.173s] Level 5:colcon.colcon_core.verb:set package 'me416_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[17.173s] Level 5:colcon.colcon_core.verb:set package 'me416_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[17.173s] Level 5:colcon.colcon_core.verb:set package 'me416_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[17.174s] Level 5:colcon.colcon_core.verb:set package 'me416_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[17.174s] Level 5:colcon.colcon_core.verb:set package 'me416_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[17.174s] Level 5:colcon.colcon_core.verb:set package 'me416_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[17.175s] Level 5:colcon.colcon_core.verb:set package 'me416_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[17.175s] DEBUG:colcon.colcon_core.verb:Building package 'me416_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/rastic_ws/build/me416_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/rastic_ws/install/me416_msgs', 'merge_install': False, 'path': '/home/ubuntu/rastic_ws/src/me416_msgs', 'symlink_install': True, 'test_result_base': None}
+[17.364s] Level 5:colcon.colcon_core.verb:set package 'me416_lab' build argument 'cmake_args' from command line to 'None'
+[17.364s] Level 5:colcon.colcon_core.verb:set package 'me416_lab' build argument 'cmake_target' from command line to 'None'
+[17.365s] Level 5:colcon.colcon_core.verb:set package 'me416_lab' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[17.365s] Level 5:colcon.colcon_core.verb:set package 'me416_lab' build argument 'cmake_clean_cache' from command line to 'False'
+[17.365s] Level 5:colcon.colcon_core.verb:set package 'me416_lab' build argument 'cmake_clean_first' from command line to 'False'
+[17.366s] Level 5:colcon.colcon_core.verb:set package 'me416_lab' build argument 'cmake_force_configure' from command line to 'False'
+[17.366s] Level 5:colcon.colcon_core.verb:set package 'me416_lab' build argument 'ament_cmake_args' from command line to 'None'
+[17.366s] Level 5:colcon.colcon_core.verb:set package 'me416_lab' build argument 'catkin_cmake_args' from command line to 'None'
+[17.367s] Level 5:colcon.colcon_core.verb:set package 'me416_lab' build argument 'catkin_skip_building_tests' from command line to 'False'
+[17.367s] DEBUG:colcon.colcon_core.verb:Building package 'me416_lab' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/rastic_ws/build/me416_lab', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/rastic_ws/install/me416_lab', 'merge_install': False, 'path': '/home/ubuntu/rastic_ws/src/me416_lab', 'symlink_install': True, 'test_result_base': None}
+[17.554s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[17.744s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[17.746s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/rastic_ws/src/me416_msgs' with build type 'ament_cmake'
+[17.748s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/rastic_ws/src/me416_msgs'
+[17.954s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[17.957s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.957s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/rastic_ws/build/me416_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/rastic_ws/src/me416_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rastic_ws/install/me416_msgs
+[32.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/rastic_ws/build/me416_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/rastic_ws/src/me416_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rastic_ws/install/me416_msgs
+[32.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/rastic_ws/build/me416_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rastic_ws/build/me416_msgs -- -j4 -l4
+[98.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/rastic_ws/build/me416_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rastic_ws/build/me416_msgs -- -j4 -l4
+[99.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/rastic_ws/build/me416_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rastic_ws/build/me416_msgs
+[104.331s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(me416_msgs)
+[104.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/rastic_ws/build/me416_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rastic_ws/build/me416_msgs
+[104.586s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_msgs' for CMake module files
+[104.592s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_msgs' for CMake config files
+[104.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('me416_msgs', 'cmake_prefix_path')
+[104.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/hook/cmake_prefix_path.ps1'
+[104.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/hook/cmake_prefix_path.dsv'
+[104.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/hook/cmake_prefix_path.sh'
+[104.801s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_msgs/lib'
+[104.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('me416_msgs', 'ld_library_path_lib')
+[104.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/hook/ld_library_path_lib.ps1'
+[104.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/hook/ld_library_path_lib.dsv'
+[104.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/hook/ld_library_path_lib.sh'
+[105.002s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_msgs/bin'
+[105.003s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_msgs/lib/pkgconfig/me416_msgs.pc'
+[105.005s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_msgs/lib/python3.10/site-packages'
+[105.007s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_msgs/bin'
+[105.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/package.ps1'
+[105.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/package.dsv'
+[105.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/package.sh'
+[105.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/package.bash'
+[105.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/package.zsh'
+[105.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/rastic_ws/install/me416_msgs/share/colcon-core/packages/me416_msgs)
+[105.806s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(me416_msgs)
+[106.022s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_msgs' for CMake module files
+[106.028s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_msgs' for CMake config files
+[106.032s] Level 1:colcon.colcon_core.shell:create_environment_hook('me416_msgs', 'cmake_prefix_path')
+[106.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/hook/cmake_prefix_path.ps1'
+[106.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/hook/cmake_prefix_path.dsv'
+[106.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/hook/cmake_prefix_path.sh'
+[106.264s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_msgs/lib'
+[106.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('me416_msgs', 'ld_library_path_lib')
+[106.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/hook/ld_library_path_lib.ps1'
+[106.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/hook/ld_library_path_lib.dsv'
+[106.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/hook/ld_library_path_lib.sh'
+[106.487s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_msgs/bin'
+[106.488s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_msgs/lib/pkgconfig/me416_msgs.pc'
+[106.491s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_msgs/lib/python3.10/site-packages'
+[106.493s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_msgs/bin'
+[106.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/package.ps1'
+[106.709s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/package.dsv'
+[106.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/package.sh'
+[106.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/package.bash'
+[106.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/rastic_ws/install/me416_msgs/share/me416_msgs/package.zsh'
+[106.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/rastic_ws/install/me416_msgs/share/colcon-core/packages/me416_msgs)
+[106.730s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/rastic_ws/src/me416_lab' with build type 'ament_python'
+[106.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('me416_lab', 'ament_prefix_path')
+[106.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/rastic_ws/install/me416_lab/share/me416_lab/hook/ament_prefix_path.ps1'
+[106.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/rastic_ws/install/me416_lab/share/me416_lab/hook/ament_prefix_path.dsv'
+[106.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/rastic_ws/install/me416_lab/share/me416_lab/hook/ament_prefix_path.sh'
+[107.146s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[107.147s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[110.251s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/rastic_ws/src/me416_lab'
+[110.456s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[110.457s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[114.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/rastic_ws/build/me416_lab': AMENT_PREFIX_PATH=/home/ubuntu/rastic_ws/install/me416_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rastic_ws/install/me416_msgs LD_LIBRARY_PATH=/home/ubuntu/rastic_ws/install/me416_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rastic_ws/build/me416_lab/prefix_override:/home/ubuntu/rastic_ws/install/me416_lab/lib/python3.10/site-packages:/home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/rastic_ws/build/me416_lab/build --no-deps install_data
+[119.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('me416_lab', 'pythonpath_develop')
+[119.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/rastic_ws/build/me416_lab' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rastic_ws/install/me416_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rastic_ws/install/me416_msgs LD_LIBRARY_PATH=/home/ubuntu/rastic_ws/install/me416_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rastic_ws/build/me416_lab/prefix_override:/home/ubuntu/rastic_ws/install/me416_lab/lib/python3.10/site-packages:/home/ubuntu/rastic_ws/install/me416_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/rastic_ws/build/me416_lab/build --no-deps install_data
+[119.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/rastic_ws/build/me416_lab/share/me416_lab/hook/pythonpath_develop.ps1'
+[119.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/rastic_ws/build/me416_lab/share/me416_lab/hook/pythonpath_develop.dsv'
+[119.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/rastic_ws/build/me416_lab/share/me416_lab/hook/pythonpath_develop.sh'
+[119.693s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_lab' for CMake module files
+[119.697s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_lab' for CMake config files
+[119.701s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_lab/lib'
+[119.702s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_lab/bin'
+[119.702s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_lab/lib/pkgconfig/me416_lab.pc'
+[119.705s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_lab/lib/python3.10/site-packages'
+[119.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('me416_lab', 'pythonpath')
+[119.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/rastic_ws/install/me416_lab/share/me416_lab/hook/pythonpath.ps1'
+[119.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/rastic_ws/install/me416_lab/share/me416_lab/hook/pythonpath.dsv'
+[119.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/rastic_ws/install/me416_lab/share/me416_lab/hook/pythonpath.sh'
+[119.906s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/rastic_ws/install/me416_lab/bin'
+[119.906s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(me416_lab)
+[120.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/rastic_ws/install/me416_lab/share/me416_lab/package.ps1'
+[120.101s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/rastic_ws/install/me416_lab/share/me416_lab/package.dsv'
+[120.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/rastic_ws/install/me416_lab/share/me416_lab/package.sh'
+[120.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/rastic_ws/install/me416_lab/share/me416_lab/package.bash'
+[120.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/rastic_ws/install/me416_lab/share/me416_lab/package.zsh'
+[120.116s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/rastic_ws/install/me416_lab/share/colcon-core/packages/me416_lab)
+[120.118s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[120.120s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[120.121s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[120.122s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[120.352s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[120.353s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[120.353s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[120.508s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[120.712s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/rastic_ws/install/local_setup.ps1'
+[120.719s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/rastic_ws/install/_local_setup_util_ps1.py'
+[120.731s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/rastic_ws/install/setup.ps1'
+[120.934s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/rastic_ws/install/local_setup.sh'
+[120.940s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/rastic_ws/install/_local_setup_util_sh.py'
+[120.945s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/rastic_ws/install/setup.sh'
+[121.179s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/rastic_ws/install/local_setup.bash'
+[121.184s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/rastic_ws/install/setup.bash'
+[121.412s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/rastic_ws/install/local_setup.zsh'
+[121.417s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/rastic_ws/install/setup.zsh'

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Allow current user to change networking without sudo
+sudo usermod -a -G netdev $(whoami)
+
+# Uses NetworkManager to create a hotspot connection
+machine_id=$(cat /etc/machine-id)
+sudo nmcli device wifi hotspot \
+      ifname $(./me416_get_wifi_device) \
+      con-name my-hotspot \
+      ssid "libre-${machine_id:0:8}" \
+      password "myhardpassword"
+# Set autoconnect
+sudo nmcli c mod my-hotspot \
+      connection.autoconnect yes connection.autoconnect-priority 0
