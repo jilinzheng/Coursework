@@ -1,1 +1,2 @@
-../../../../../src/me416_msgs/msg/MotorSpeeds.msg
+float64 left 0
+float64 right 0

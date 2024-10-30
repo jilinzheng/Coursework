@@ -1,1 +1,2 @@
-../../../../../../../../build/me416_msgs/rosidl_generator_py/me416_msgs/msg/__init__.py
+from me416_msgs.msg._motor_speeds import MotorSpeeds  # noqa: F401
+from me416_msgs.msg._motor_speeds_stamped import MotorSpeedsStamped  # noqa: F401

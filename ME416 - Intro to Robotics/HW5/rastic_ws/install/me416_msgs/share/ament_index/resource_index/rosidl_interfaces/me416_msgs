@@ -1,1 +1,4 @@
-../../../../../../build/me416_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/me416_msgs
+msg/MotorSpeeds.idl
+msg/MotorSpeeds.msg
+msg/MotorSpeedsStamped.idl
+msg/MotorSpeedsStamped.msg

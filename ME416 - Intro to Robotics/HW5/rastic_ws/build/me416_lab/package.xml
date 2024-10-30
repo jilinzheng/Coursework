@@ -1,1 +1,23 @@
-../../src/me416_lab/package.xml
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>me416_lab</name>
+  <version>0.1.0</version>
+  <description>Scaffold files for ME416</description>
+  <maintainer email="tron@bu.edu">Tron Roberto</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>me416_msgs</exec_depend>
+  <exec_depend>python-transforms3d-pip</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
