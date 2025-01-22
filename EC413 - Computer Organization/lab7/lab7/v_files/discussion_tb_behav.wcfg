@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="discussion_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="discussion_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="135.333 ns"></ZoomStartTime>
+      <ZoomEndTime time="317.134 ns"></ZoomEndTime>
+      <Cursor1Time time="262.333 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="199"></NameColumnWidth>
+      <ValueColumnWidth column_width="86"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="34" />
+   <wave_markers>
+      <marker time="135000" label="" />
+      <marker time="295000" label="" />
+   </wave_markers>
+   <wvobject fp_name="group70" type="group">
+      <obj_property name="label">UUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/discussion_tb/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/Reset" type="logic">
+         <obj_property name="ElementShortName">Reset</obj_property>
+         <obj_property name="ObjectShortName">Reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/LoadInstructions" type="logic">
+         <obj_property name="ElementShortName">LoadInstructions</obj_property>
+         <obj_property name="ObjectShortName">LoadInstructions</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/Instruction" type="array">
+         <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/out" type="array">
+         <obj_property name="ElementShortName">out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group516" type="group">
+      <obj_property name="label">INSTR MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/discussion_tb/uut/InstructionMem/mem_read" type="logic">
+         <obj_property name="ElementShortName">mem_read</obj_property>
+         <obj_property name="ObjectShortName">mem_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/InstructionMem/mem_write" type="logic">
+         <obj_property name="ElementShortName">mem_write</obj_property>
+         <obj_property name="ObjectShortName">mem_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/InstructionMem/address" type="array">
+         <obj_property name="ElementShortName">address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">address[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/InstructionMem/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/InstructionMem/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/InstructionMem/mem_array" type="array">
+         <obj_property name="ElementShortName">mem_array[0:127][31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_array[0:127][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider83">
+      <obj_property name="label">IFID</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group76" type="group">
+      <obj_property name="label">IFID PC REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/discussion_tb/uut/IFID_PCReg/in" type="array">
+         <obj_property name="ElementShortName">in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/IFID_PCReg/out" type="array">
+         <obj_property name="ElementShortName">out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/IFID_PCReg/enable" type="logic">
+         <obj_property name="ElementShortName">enable</obj_property>
+         <obj_property name="ObjectShortName">enable</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group82" type="group">
+      <obj_property name="label">IFID INSTR REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/discussion_tb/uut/IFID_InstructionReg/in" type="array">
+         <obj_property name="ElementShortName">in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/IFID_InstructionReg/out" type="array">
+         <obj_property name="ElementShortName">out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/IFID_InstructionReg/enable" type="logic">
+         <obj_property name="ElementShortName">enable</obj_property>
+         <obj_property name="ObjectShortName">enable</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group549" type="group">
+      <obj_property name="label">CTRL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/discussion_tb/uut/Control/opcode" type="array">
+         <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+         <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/Control/equal" type="logic">
+         <obj_property name="ElementShortName">equal</obj_property>
+         <obj_property name="ObjectShortName">equal</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/Control/AluOp" type="array">
+         <obj_property name="ElementShortName">AluOp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">AluOp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/Control/RegDst" type="logic">
+         <obj_property name="ElementShortName">RegDst</obj_property>
+         <obj_property name="ObjectShortName">RegDst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/Control/AluSrc" type="logic">
+         <obj_property name="ElementShortName">AluSrc</obj_property>
+         <obj_property name="ObjectShortName">AluSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/Control/MemRead" type="logic">
+         <obj_property name="ElementShortName">MemRead</obj_property>
+         <obj_property name="ObjectShortName">MemRead</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/Control/MemWrite" type="logic">
+         <obj_property name="ElementShortName">MemWrite</obj_property>
+         <obj_property name="ObjectShortName">MemWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/Control/ZeroMux" type="logic">
+         <obj_property name="ElementShortName">ZeroMux</obj_property>
+         <obj_property name="ObjectShortName">ZeroMux</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/Control/RegWrite" type="logic">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/Control/MemToReg" type="logic">
+         <obj_property name="ElementShortName">MemToReg</obj_property>
+         <obj_property name="ObjectShortName">MemToReg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/Control/IfFlush" type="logic">
+         <obj_property name="ElementShortName">IfFlush</obj_property>
+         <obj_property name="ObjectShortName">IfFlush</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/Control/caseoperation" type="array">
+         <obj_property name="ElementShortName">caseoperation[2:0]</obj_property>
+         <obj_property name="ObjectShortName">caseoperation[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/Control/BranchMux" type="array">
+         <obj_property name="ElementShortName">BranchMux[2:0]</obj_property>
+         <obj_property name="ObjectShortName">BranchMux[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/Control/rformat" type="array">
+         <obj_property name="ElementShortName">rformat[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rformat[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/Control/iformat" type="array">
+         <obj_property name="ElementShortName">iformat[31:0]</obj_property>
+         <obj_property name="ObjectShortName">iformat[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/Control/lw" type="array">
+         <obj_property name="ElementShortName">lw[31:0]</obj_property>
+         <obj_property name="ObjectShortName">lw[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/Control/sw" type="array">
+         <obj_property name="ElementShortName">sw[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sw[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/Control/beq" type="array">
+         <obj_property name="ElementShortName">beq[31:0]</obj_property>
+         <obj_property name="ObjectShortName">beq[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/Control/bne" type="array">
+         <obj_property name="ElementShortName">bne[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bne[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/Control/j" type="array">
+         <obj_property name="ElementShortName">j[31:0]</obj_property>
+         <obj_property name="ObjectShortName">j[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group528" type="group">
+      <obj_property name="label">REG FILE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group769" type="group">
+         <obj_property name="label">TARGET REGS</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/discussion_tb/uut/RegisterFile/Reg_File[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/RegisterFile/Reg_File[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/RegisterFile/Reg_File[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/RegisterFile/Reg_File[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/RegisterFile/Reg_File[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/RegisterFile/Reg_File[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/RegisterFile/Reg_File[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/RegisterFile/Reg_File[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/RegisterFile/Reg_File[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/RegisterFile/ReadData1" type="array">
+         <obj_property name="ElementShortName">ReadData1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadData1[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/RegisterFile/ReadData2" type="array">
+         <obj_property name="ElementShortName">ReadData2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadData2[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/RegisterFile/ReadReg1" type="array">
+         <obj_property name="ElementShortName">ReadReg1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadReg1[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/RegisterFile/ReadReg2" type="array">
+         <obj_property name="ElementShortName">ReadReg2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadReg2[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/RegisterFile/RegWrite" type="logic">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/RegisterFile/WriteData" type="array">
+         <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/RegisterFile/WriteRegister" type="array">
+         <obj_property name="ElementShortName">WriteRegister[4:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteRegister[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider85">
+      <obj_property name="label">IDEX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group92" type="group">
+      <obj_property name="label">IDEX WB REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/discussion_tb/uut/IDEX_WBReg/out" type="array">
+         <obj_property name="ElementShortName">out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/IDEX_WBReg/in" type="array">
+         <obj_property name="ElementShortName">in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group97" type="group">
+      <obj_property name="label">IDEX MEM REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/discussion_tb/uut/IDEX_MEMReg/out" type="array">
+         <obj_property name="ElementShortName">out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/IDEX_MEMReg/in" type="array">
+         <obj_property name="ElementShortName">in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group102" type="group">
+      <obj_property name="label">IDEX EX REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/discussion_tb/uut/IDEX_EXReg/out" type="array">
+         <obj_property name="ElementShortName">out[13:0]</obj_property>
+         <obj_property name="ObjectShortName">out[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/IDEX_EXReg/in" type="array">
+         <obj_property name="ElementShortName">in[13:0]</obj_property>
+         <obj_property name="ObjectShortName">in[13:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group107" type="group">
+      <obj_property name="label">IDEX REG SRC A</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/discussion_tb/uut/IDEX_RegSrcA/out" type="array">
+         <obj_property name="ElementShortName">out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/IDEX_RegSrcA/in" type="array">
+         <obj_property name="ElementShortName">in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group112" type="group">
+      <obj_property name="label">IDEX REG SRC B</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/discussion_tb/uut/IDEX_RegSrcB/out" type="array">
+         <obj_property name="ElementShortName">out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/IDEX_RegSrcB/in" type="array">
+         <obj_property name="ElementShortName">in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group117" type="group">
+      <obj_property name="label">IDEX IMM REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/discussion_tb/uut/IDEX_ImmediateReg/out" type="array">
+         <obj_property name="ElementShortName">out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/IDEX_ImmediateReg/in" type="array">
+         <obj_property name="ElementShortName">in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group122" type="group">
+      <obj_property name="label">IDEX RS REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/discussion_tb/uut/IDEX_RsReg/out" type="array">
+         <obj_property name="ElementShortName">out[4:0]</obj_property>
+         <obj_property name="ObjectShortName">out[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/IDEX_RsReg/in" type="array">
+         <obj_property name="ElementShortName">in[4:0]</obj_property>
+         <obj_property name="ObjectShortName">in[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group127" type="group">
+      <obj_property name="label">IDEX RT REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/discussion_tb/uut/IDEX_RtReg/out" type="array">
+         <obj_property name="ElementShortName">out[4:0]</obj_property>
+         <obj_property name="ObjectShortName">out[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/IDEX_RtReg/in" type="array">
+         <obj_property name="ElementShortName">in[4:0]</obj_property>
+         <obj_property name="ObjectShortName">in[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group132" type="group">
+      <obj_property name="label">IDEX RD REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/discussion_tb/uut/IDEX_RdReg/out" type="array">
+         <obj_property name="ElementShortName">out[4:0]</obj_property>
+         <obj_property name="ObjectShortName">out[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/IDEX_RdReg/in" type="array">
+         <obj_property name="ElementShortName">in[4:0]</obj_property>
+         <obj_property name="ObjectShortName">in[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group159" type="group">
+      <obj_property name="label">AHEAD ALU A MUX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/discussion_tb/uut/AheadAluAMux/out" type="array">
+         <obj_property name="ElementShortName">out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/AheadAluAMux/in0" type="array">
+         <obj_property name="ElementShortName">in0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/AheadAluAMux/in1" type="array">
+         <obj_property name="ElementShortName">in1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/AheadAluAMux/in2" type="array">
+         <obj_property name="ElementShortName">in2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in2[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/AheadAluAMux/select" type="array">
+         <obj_property name="ElementShortName">select[1:0]</obj_property>
+         <obj_property name="ObjectShortName">select[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group153" type="group">
+      <obj_property name="label">AHEAD ALU B MUX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/discussion_tb/uut/AheadAluBMux/out" type="array">
+         <obj_property name="ElementShortName">out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/AheadAluBMux/in0" type="array">
+         <obj_property name="ElementShortName">in0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/AheadAluBMux/in1" type="array">
+         <obj_property name="ElementShortName">in1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/AheadAluBMux/in2" type="array">
+         <obj_property name="ElementShortName">in2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in2[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/AheadAluBMux/select" type="array">
+         <obj_property name="ElementShortName">select[1:0]</obj_property>
+         <obj_property name="ObjectShortName">select[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group557" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/discussion_tb/uut/MarkAlu/aluop" type="array">
+         <obj_property name="ElementShortName">aluop[3:0]</obj_property>
+         <obj_property name="ObjectShortName">aluop[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/MarkAlu/a" type="array">
+         <obj_property name="ElementShortName">a[31:0]</obj_property>
+         <obj_property name="ObjectShortName">a[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/MarkAlu/b" type="array">
+         <obj_property name="ElementShortName">b[31:0]</obj_property>
+         <obj_property name="ObjectShortName">b[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/MarkAlu/result" type="array">
+         <obj_property name="ElementShortName">result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">result[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/MarkAlu/shamt" type="array">
+         <obj_property name="ElementShortName">shamt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">shamt[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/MarkAlu/hi" type="array">
+         <obj_property name="ElementShortName">hi[31:0]</obj_property>
+         <obj_property name="ObjectShortName">hi[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/MarkAlu/lo" type="array">
+         <obj_property name="ElementShortName">lo[31:0]</obj_property>
+         <obj_property name="ObjectShortName">lo[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group147" type="group">
+      <obj_property name="label">FWD UNIT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/discussion_tb/uut/ForwardingUnit/IDEX_Rs" type="array">
+         <obj_property name="ElementShortName">IDEX_Rs[4:0]</obj_property>
+         <obj_property name="ObjectShortName">IDEX_Rs[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/ForwardingUnit/IDEX_Rt" type="array">
+         <obj_property name="ElementShortName">IDEX_Rt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">IDEX_Rt[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/ForwardingUnit/EXMEM_RegDst" type="array">
+         <obj_property name="ElementShortName">EXMEM_RegDst[4:0]</obj_property>
+         <obj_property name="ObjectShortName">EXMEM_RegDst[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/ForwardingUnit/MEMWB_RegDst" type="array">
+         <obj_property name="ElementShortName">MEMWB_RegDst[4:0]</obj_property>
+         <obj_property name="ObjectShortName">MEMWB_RegDst[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/ForwardingUnit/EXMEM_RegWrite" type="logic">
+         <obj_property name="ElementShortName">EXMEM_RegWrite</obj_property>
+         <obj_property name="ObjectShortName">EXMEM_RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/ForwardingUnit/MEMWB_RegWrite" type="logic">
+         <obj_property name="ElementShortName">MEMWB_RegWrite</obj_property>
+         <obj_property name="ObjectShortName">MEMWB_RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/ForwardingUnit/ForwardA" type="array">
+         <obj_property name="ElementShortName">ForwardA[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ForwardA[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/ForwardingUnit/ForwardB" type="array">
+         <obj_property name="ElementShortName">ForwardB[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ForwardB[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider86">
+      <obj_property name="label">EXMEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group137" type="group">
+      <obj_property name="label">EXMEM WB REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/discussion_tb/uut/EXMEM_WBReg/out" type="array">
+         <obj_property name="ElementShortName">out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/EXMEM_WBReg/in" type="array">
+         <obj_property name="ElementShortName">in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group142" type="group">
+      <obj_property name="label">EXMEM MEM REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/discussion_tb/uut/EXMEM_MEMReg/out" type="array">
+         <obj_property name="ElementShortName">out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/EXMEM_MEMReg/in" type="array">
+         <obj_property name="ElementShortName">in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group147" type="group">
+      <obj_property name="label">EXMEM ALU REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/discussion_tb/uut/EXMEM_ALUReg/out" type="array">
+         <obj_property name="ElementShortName">out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/EXMEM_ALUReg/in" type="array">
+         <obj_property name="ElementShortName">in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group152" type="group">
+      <obj_property name="label">EXMEM REG DST</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/discussion_tb/uut/EXMEM_RegDest/out" type="array">
+         <obj_property name="ElementShortName">out[4:0]</obj_property>
+         <obj_property name="ObjectShortName">out[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/EXMEM_RegDest/in" type="array">
+         <obj_property name="ElementShortName">in[4:0]</obj_property>
+         <obj_property name="ObjectShortName">in[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group157" type="group">
+      <obj_property name="label">EXMEM MEM DATA</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/discussion_tb/uut/EXMEM_MemData/out" type="array">
+         <obj_property name="ElementShortName">out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/EXMEM_MemData/in" type="array">
+         <obj_property name="ElementShortName">in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group566" type="group">
+      <obj_property name="label">DATA MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/discussion_tb/uut/DataMem/mem_read" type="logic">
+         <obj_property name="ElementShortName">mem_read</obj_property>
+         <obj_property name="ObjectShortName">mem_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/DataMem/mem_write" type="logic">
+         <obj_property name="ElementShortName">mem_write</obj_property>
+         <obj_property name="ObjectShortName">mem_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/DataMem/address" type="array">
+         <obj_property name="ElementShortName">address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">address[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/DataMem/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/DataMem/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array" type="array">
+         <obj_property name="ElementShortName">mem_array[0:127][31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_array[0:127][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[9]" type="array">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[10]" type="array">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[11]" type="array">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[12]" type="array">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[13]" type="array">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[14]" type="array">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[15]" type="array">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[16]" type="array">
+            <obj_property name="ElementShortName">[16][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[17]" type="array">
+            <obj_property name="ElementShortName">[17][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[18]" type="array">
+            <obj_property name="ElementShortName">[18][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[19]" type="array">
+            <obj_property name="ElementShortName">[19][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[20]" type="array">
+            <obj_property name="ElementShortName">[20][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[21]" type="array">
+            <obj_property name="ElementShortName">[21][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[22]" type="array">
+            <obj_property name="ElementShortName">[22][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[23]" type="array">
+            <obj_property name="ElementShortName">[23][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[24]" type="array">
+            <obj_property name="ElementShortName">[24][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[25]" type="array">
+            <obj_property name="ElementShortName">[25][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[26]" type="array">
+            <obj_property name="ElementShortName">[26][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[27]" type="array">
+            <obj_property name="ElementShortName">[27][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[28]" type="array">
+            <obj_property name="ElementShortName">[28][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[29]" type="array">
+            <obj_property name="ElementShortName">[29][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[30]" type="array">
+            <obj_property name="ElementShortName">[30][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[31]" type="array">
+            <obj_property name="ElementShortName">[31][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[32]" type="array">
+            <obj_property name="ElementShortName">[32][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[32][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[33]" type="array">
+            <obj_property name="ElementShortName">[33][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[33][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[34]" type="array">
+            <obj_property name="ElementShortName">[34][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[34][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[35]" type="array">
+            <obj_property name="ElementShortName">[35][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[35][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[36]" type="array">
+            <obj_property name="ElementShortName">[36][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[36][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[37]" type="array">
+            <obj_property name="ElementShortName">[37][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[37][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[38]" type="array">
+            <obj_property name="ElementShortName">[38][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[38][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[39]" type="array">
+            <obj_property name="ElementShortName">[39][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[39][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[40]" type="array">
+            <obj_property name="ElementShortName">[40][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[40][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[41]" type="array">
+            <obj_property name="ElementShortName">[41][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[41][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[42]" type="array">
+            <obj_property name="ElementShortName">[42][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[42][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[43]" type="array">
+            <obj_property name="ElementShortName">[43][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[43][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[44]" type="array">
+            <obj_property name="ElementShortName">[44][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[44][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[45]" type="array">
+            <obj_property name="ElementShortName">[45][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[45][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[46]" type="array">
+            <obj_property name="ElementShortName">[46][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[46][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[47]" type="array">
+            <obj_property name="ElementShortName">[47][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[47][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[48]" type="array">
+            <obj_property name="ElementShortName">[48][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[48][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[49]" type="array">
+            <obj_property name="ElementShortName">[49][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[49][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[50]" type="array">
+            <obj_property name="ElementShortName">[50][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[50][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[51]" type="array">
+            <obj_property name="ElementShortName">[51][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[51][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[52]" type="array">
+            <obj_property name="ElementShortName">[52][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[52][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[53]" type="array">
+            <obj_property name="ElementShortName">[53][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[53][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[54]" type="array">
+            <obj_property name="ElementShortName">[54][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[54][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[55]" type="array">
+            <obj_property name="ElementShortName">[55][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[55][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[56]" type="array">
+            <obj_property name="ElementShortName">[56][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[56][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[57]" type="array">
+            <obj_property name="ElementShortName">[57][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[57][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[58]" type="array">
+            <obj_property name="ElementShortName">[58][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[58][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[59]" type="array">
+            <obj_property name="ElementShortName">[59][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[59][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[60]" type="array">
+            <obj_property name="ElementShortName">[60][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[60][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[61]" type="array">
+            <obj_property name="ElementShortName">[61][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[61][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[62]" type="array">
+            <obj_property name="ElementShortName">[62][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[62][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[63]" type="array">
+            <obj_property name="ElementShortName">[63][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[63][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[64]" type="array">
+            <obj_property name="ElementShortName">[64][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[64][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[65]" type="array">
+            <obj_property name="ElementShortName">[65][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[65][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[66]" type="array">
+            <obj_property name="ElementShortName">[66][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[66][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[67]" type="array">
+            <obj_property name="ElementShortName">[67][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[67][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[68]" type="array">
+            <obj_property name="ElementShortName">[68][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[68][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[69]" type="array">
+            <obj_property name="ElementShortName">[69][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[69][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[70]" type="array">
+            <obj_property name="ElementShortName">[70][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[70][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[71]" type="array">
+            <obj_property name="ElementShortName">[71][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[71][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[72]" type="array">
+            <obj_property name="ElementShortName">[72][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[72][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[73]" type="array">
+            <obj_property name="ElementShortName">[73][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[73][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[74]" type="array">
+            <obj_property name="ElementShortName">[74][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[74][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[75]" type="array">
+            <obj_property name="ElementShortName">[75][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[75][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[76]" type="array">
+            <obj_property name="ElementShortName">[76][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[76][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[77]" type="array">
+            <obj_property name="ElementShortName">[77][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[77][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[78]" type="array">
+            <obj_property name="ElementShortName">[78][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[78][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[79]" type="array">
+            <obj_property name="ElementShortName">[79][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[79][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[80]" type="array">
+            <obj_property name="ElementShortName">[80][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[80][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[81]" type="array">
+            <obj_property name="ElementShortName">[81][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[81][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[82]" type="array">
+            <obj_property name="ElementShortName">[82][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[82][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[83]" type="array">
+            <obj_property name="ElementShortName">[83][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[83][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[84]" type="array">
+            <obj_property name="ElementShortName">[84][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[84][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[85]" type="array">
+            <obj_property name="ElementShortName">[85][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[85][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[86]" type="array">
+            <obj_property name="ElementShortName">[86][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[86][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[87]" type="array">
+            <obj_property name="ElementShortName">[87][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[87][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[88]" type="array">
+            <obj_property name="ElementShortName">[88][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[88][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[89]" type="array">
+            <obj_property name="ElementShortName">[89][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[89][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[90]" type="array">
+            <obj_property name="ElementShortName">[90][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[90][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[91]" type="array">
+            <obj_property name="ElementShortName">[91][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[91][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[92]" type="array">
+            <obj_property name="ElementShortName">[92][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[92][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[93]" type="array">
+            <obj_property name="ElementShortName">[93][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[93][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[94]" type="array">
+            <obj_property name="ElementShortName">[94][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[94][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[95]" type="array">
+            <obj_property name="ElementShortName">[95][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[95][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[96]" type="array">
+            <obj_property name="ElementShortName">[96][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[96][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[97]" type="array">
+            <obj_property name="ElementShortName">[97][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[97][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[98]" type="array">
+            <obj_property name="ElementShortName">[98][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[98][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[99]" type="array">
+            <obj_property name="ElementShortName">[99][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[99][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[100]" type="array">
+            <obj_property name="ElementShortName">[100][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[100][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[101]" type="array">
+            <obj_property name="ElementShortName">[101][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[101][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[102]" type="array">
+            <obj_property name="ElementShortName">[102][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[102][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[103]" type="array">
+            <obj_property name="ElementShortName">[103][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[103][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[104]" type="array">
+            <obj_property name="ElementShortName">[104][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[104][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[105]" type="array">
+            <obj_property name="ElementShortName">[105][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[105][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[106]" type="array">
+            <obj_property name="ElementShortName">[106][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[106][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[107]" type="array">
+            <obj_property name="ElementShortName">[107][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[107][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[108]" type="array">
+            <obj_property name="ElementShortName">[108][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[108][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[109]" type="array">
+            <obj_property name="ElementShortName">[109][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[109][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[110]" type="array">
+            <obj_property name="ElementShortName">[110][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[110][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[111]" type="array">
+            <obj_property name="ElementShortName">[111][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[111][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[112]" type="array">
+            <obj_property name="ElementShortName">[112][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[112][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[113]" type="array">
+            <obj_property name="ElementShortName">[113][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[113][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[114]" type="array">
+            <obj_property name="ElementShortName">[114][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[114][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[115]" type="array">
+            <obj_property name="ElementShortName">[115][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[115][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[116]" type="array">
+            <obj_property name="ElementShortName">[116][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[116][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[117]" type="array">
+            <obj_property name="ElementShortName">[117][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[117][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[118]" type="array">
+            <obj_property name="ElementShortName">[118][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[118][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[119]" type="array">
+            <obj_property name="ElementShortName">[119][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[119][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[120]" type="array">
+            <obj_property name="ElementShortName">[120][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[120][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[121]" type="array">
+            <obj_property name="ElementShortName">[121][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[121][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[122]" type="array">
+            <obj_property name="ElementShortName">[122][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[122][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[123]" type="array">
+            <obj_property name="ElementShortName">[123][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[123][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[124]" type="array">
+            <obj_property name="ElementShortName">[124][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[124][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[125]" type="array">
+            <obj_property name="ElementShortName">[125][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[125][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[126]" type="array">
+            <obj_property name="ElementShortName">[126][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[126][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/discussion_tb/uut/DataMem/mem_array[127]" type="array">
+            <obj_property name="ElementShortName">[127][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[127][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider87">
+      <obj_property name="label">MEMWB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group162" type="group">
+      <obj_property name="label">MEMWB WB CTRL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/discussion_tb/uut/MEMWB_WBControl/out" type="array">
+         <obj_property name="ElementShortName">out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/MEMWB_WBControl/in" type="array">
+         <obj_property name="ElementShortName">in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group167" type="group">
+      <obj_property name="label">MEMWB MEM DATA REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/discussion_tb/uut/MEMWB_MemDataReg/out" type="array">
+         <obj_property name="ElementShortName">out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/MEMWB_MemDataReg/in" type="array">
+         <obj_property name="ElementShortName">in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group172" type="group">
+      <obj_property name="label">MEMWB ALU REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/discussion_tb/uut/MEMWB_ALUReg/out" type="array">
+         <obj_property name="ElementShortName">out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/MEMWB_ALUReg/in" type="array">
+         <obj_property name="ElementShortName">in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group177" type="group">
+      <obj_property name="label">MEMWB DATA MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/discussion_tb/uut/MEMWB_DataMem/out" type="array">
+         <obj_property name="ElementShortName">out[4:0]</obj_property>
+         <obj_property name="ObjectShortName">out[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/MEMWB_DataMem/in" type="array">
+         <obj_property name="ElementShortName">in[4:0]</obj_property>
+         <obj_property name="ObjectShortName">in[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group571" type="group">
+      <obj_property name="label">MEM TO REG MUX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/discussion_tb/uut/MemToRegMux/out" type="array">
+         <obj_property name="ElementShortName">out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/MemToRegMux/in0" type="array">
+         <obj_property name="ElementShortName">in0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/MemToRegMux/in1" type="array">
+         <obj_property name="ElementShortName">in1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discussion_tb/uut/MemToRegMux/sel" type="logic">
+         <obj_property name="ElementShortName">sel</obj_property>
+         <obj_property name="ObjectShortName">sel</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
