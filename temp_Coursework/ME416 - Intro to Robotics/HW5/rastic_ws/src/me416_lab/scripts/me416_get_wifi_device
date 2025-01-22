@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# Use NetworkManager to print the name of the first wifi device
-nmcli d | awk '$2=="wifi" {print $1}' | head --lines=1

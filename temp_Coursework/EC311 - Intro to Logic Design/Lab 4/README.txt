@@ -1,8 +1,0 @@
-Name: Jilin Zheng
-BUID: U49258796
-Assigned TF: Colin McDowell
-Lab TF: Christopher Liao
-Comments:
-	Most of the lab was pretty straightforward in concept, but I felt like some of the instructions were not as clear as they should have/could have been. In Problem 1, I feel like there could have been a little more description on what 'p' and 'in' should have been (I am aware that 'in' is addressed more - a little more - in Problem 5, but that does not help much when most students solve Problem 1 first).
-	Problem 4 was conceptually rather simple, but the implementation almost felt like busy work. The instructions were also a little misleading for me. The chart enumerated bit #'s from 1 to 21, left-to-right, but when actually implementing the data with the parity bits, I 'indexed' into my registers with flipped indices. Perhaps my implementation was not correct since I had to do a little workaround (particularly with my checkBits, which you can find comments on in the Verilog files) to achieve the desired result, but I feel like that part of the problem was not very clear.
-	Problem 5 was a doozy. I ended up using the alternative implementation Fadi posted, mainly because the original file just did not have enough descriptions of what-to-do in relation to the Moore FSM of Problem 1; I just got lost trying to work out what to do with the delay parameter, what to do at each state (which have actual names now, contrary to Problem 1), etc.

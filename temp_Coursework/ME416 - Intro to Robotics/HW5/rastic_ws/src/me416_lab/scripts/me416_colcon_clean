@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-for DIR in build install log
-do
-    if test -d ${DIR}
-    then
-        rm -rf ${DIR}
-    fi
-done

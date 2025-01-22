@@ -1,1 +1,0 @@
-KERNEL=="gpiomem", NAME="%k", GROUP="gpio", MODE="0660"

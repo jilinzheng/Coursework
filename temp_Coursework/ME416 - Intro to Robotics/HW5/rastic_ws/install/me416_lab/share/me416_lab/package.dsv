@@ -1,9 +1,0 @@
-source;share/me416_lab/hook/pythonpath.ps1
-source;share/me416_lab/hook/pythonpath.dsv
-source;share/me416_lab/hook/pythonpath.sh
-source;share/me416_lab/hook/ament_prefix_path.ps1
-source;share/me416_lab/hook/ament_prefix_path.dsv
-source;share/me416_lab/hook/ament_prefix_path.sh
-source;../../build/me416_lab/share/me416_lab/hook/pythonpath_develop.ps1
-source;../../build/me416_lab/share/me416_lab/hook/pythonpath_develop.dsv
-source;../../build/me416_lab/share/me416_lab/hook/pythonpath_develop.sh

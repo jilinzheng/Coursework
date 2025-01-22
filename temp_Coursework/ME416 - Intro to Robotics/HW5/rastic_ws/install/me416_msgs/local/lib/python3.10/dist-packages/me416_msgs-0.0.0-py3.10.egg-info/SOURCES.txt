@@ -1,6 +1,0 @@
-setup.py
-me416_msgs/__init__.py
-me416_msgs.egg-info/PKG-INFO
-me416_msgs.egg-info/SOURCES.txt
-me416_msgs.egg-info/dependency_links.txt
-me416_msgs.egg-info/top_level.txt

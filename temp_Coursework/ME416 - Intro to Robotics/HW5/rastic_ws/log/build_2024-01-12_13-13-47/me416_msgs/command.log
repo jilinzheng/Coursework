@@ -1,6 +1,0 @@
-Invoking command in '/home/ubuntu/rastic_ws/build/me416_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/rastic_ws/src/me416_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rastic_ws/install/me416_msgs
-Invoked command in '/home/ubuntu/rastic_ws/build/me416_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/rastic_ws/src/me416_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rastic_ws/install/me416_msgs
-Invoking command in '/home/ubuntu/rastic_ws/build/me416_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rastic_ws/build/me416_msgs -- -j4 -l4
-Invoked command in '/home/ubuntu/rastic_ws/build/me416_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rastic_ws/build/me416_msgs -- -j4 -l4
-Invoking command in '/home/ubuntu/rastic_ws/build/me416_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rastic_ws/build/me416_msgs
-Invoked command in '/home/ubuntu/rastic_ws/build/me416_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rastic_ws/build/me416_msgs
